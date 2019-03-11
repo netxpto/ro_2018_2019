@@ -1,0 +1,11 @@
+PWD C:/Users/andoni_santos/Projects/LinkPlanner/doc/tex/sdf/m_qam_system
+INPUT c:/texlive/2017/texmf.cnf
+INPUT c:/texlive/2017/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT ./m_qam_system.tex
+OUTPUT m_qam_system.log
+INPUT c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT m_qam_system.pdf
+INPUT c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm

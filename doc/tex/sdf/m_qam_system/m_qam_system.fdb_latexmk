@@ -1,0 +1,20 @@
+# Fdb version 3
+["bibtex m_qam_system"] 1517581701 "m_qam_system.aux" "m_qam_system.bbl" "m_qam_system" 1517581701
+  "m_qam_system.aux" 1517581699 9 a94a2480d3289e625eea47cd1b285758 ""
+  (generated)
+  "m_qam_system.bbl"
+  "m_qam_system.blg"
+["pdflatex"] 1517581699 "m_qam_system.tex" "m_qam_system.pdf" "m_qam_system" 1517581699
+  "c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1517567043 3332 103109f5612ad95229751940c61aada0 ""
+  "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1517566630 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1517566630 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "c:/texlive/2017/texmf-dist/web2c/texmf.cnf" 1517567305 32887 98f6daf93465f813f3c6dc477834d2d9 ""
+  "c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1517568601 2561369 0ae64fd9418a698d9b6cbe5112d9f854 ""
+  "c:/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1517568689 4127852 b6cbbd8df49581b60c5b0ba50a49ac29 ""
+  "c:/texlive/2017/texmf.cnf" 1517568589 673 4ae7b2f49cee444c5343a45b5d0f169c ""
+  "m_qam_system.aux" 1517581699 9 a94a2480d3289e625eea47cd1b285758 ""
+  "m_qam_system.bbl" 0 -1 0 "bibtex m_qam_system"
+  "m_qam_system.tex" 1517581599 24243 786cc6aa22d28dc6022ad21ae21bb911 ""
+  (generated)
+  "m_qam_system.log"
+  "m_qam_system.pdf"

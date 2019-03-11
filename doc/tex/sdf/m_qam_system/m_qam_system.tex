@@ -1,0 +1,84 @@
+%! TEX root = ../../main_netxpto.tex
+\clearpage
+
+
+
+\section{M-QAM Transmission System}
+
+
+% Show subsubsections on the Table of Contents
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\begin{refsection}
+	\begin{tcolorbox}
+		\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}}
+			\textbf{Student Name} & & Andoni Santos (2018/01/03 - )\\
+														& & Ana Luisa Carvalho (2017/04/01 - 2017/12/31) \\
+			\textbf{Goal}         &:& M-QAM system implementation with BER measurement and comparison with theoretical and experimental values.\\
+			\textbf{Directory} &:& sdf/m\_qam\_system
+		\end{tabular}
+	\end{tcolorbox}
+
+	\subsection{Introduction}
+
+	The goal of this project is to simulate a Quadrature Amplitude Modulation
+	transmission system with M points in the constellation diagram (M-QAM) and to
+	perform a Bit Error Rate (BER) measurement that can be compared with theoretical
+	and experimental values.
+	M-QAM systems can encode $\log_2 M$ bits per symbol which means they can
+	transmit higher data rates keeping the same bandwidth. However, because the states are closer together, these
+	systems require a higher signal-to-noise ratio.
+	The Bit Error Rate (BER) is a measurement of how a bit stream is altered by a
+	transmission system due to noise or intersymbol interference.
+
+	For $M=4$ the M-QAM system can be reduced to a Quadrature Phase Shift Keying
+	system (QPSK) system that uses four equispaced points in the constellation
+	diagram, as shown in figure \ref{fig:const_2m} where a Gray encoding is
+	assumed~\cite{proakis08}.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\textwidth]{./sdf/m_qam_system/figures/intro/constellation.pdf}
+		\caption{A QPSK constellation, assuming $ A = A_i = A_q =
+			A_c/\sqrt{2}$.\label{fig:const_2m}}
+	\end{figure}
+
+    \input{./sdf/m_qam_system/m_qam_system_theoretical_description}
+    \input{./sdf/m_qam_system/m_qam_system_simulation_analysis}
+    \input{./sdf/m_qam_system/m_qam_system_experimental_analysis}
+    \input{./sdf/m_qam_system/m_qam_system_dsp}
+
+
+\clearpage
+	\subsection{Open Issues}
+	\begin{enumerate}
+		\item The DSP used to process the lab data needs to be implemented in the NetXPTO platform, as it is currently
+			implemented in MATLAB.
+		\begin{itemize}
+			\item Currently under development.
+		\end{itemize}
+		\item It is necessary to implement a way to open external signals from
+			the oscilloscope on the netXPTO platform.
+		\item There are still differences between the data produced in the simulation
+			and the data measured in the Lab.
+	\end{enumerate}
+
+	\subsection{Future work}
+	Extend this block to include other values of M.
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% References
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+	% bibliographic references for the section ----------------------------
+	\clearpage
+	\printbibliography[heading=subbibliography]
+\end{refsection}
+\addcontentsline{toc}{subsection}{Bibliography}
+\cleardoublepage
+% ---------------------------------------------------------------------
+
+
+% vim: set ts=2 sw=2 tw=80 noet :
