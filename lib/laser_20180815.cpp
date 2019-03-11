@@ -43,7 +43,7 @@ bool Laser::runBlock(void) {
 		phase += cm_phNoise + frequencyMismatch*2*PI*samplingPeriod;
 		t_complex out = sqrt((opticalPower + intNoise)/2)*exp(1.0i*phase);
 
-		outputSignals[0]->bufferPut((t_complex)out);
+		outputSignals[0]->bufferPut(out);
 	}
 
 	return true;

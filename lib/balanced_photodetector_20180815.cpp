@@ -1,7 +1,7 @@
-# include "../include/photodiode_20180815.h"
+# include "../include/balanced_photodetector_20180815.h"
 
 
-void Photodiode::initialize(void){
+void BalancedPhotodetector::initialize(void){
 
 	//firstTime = false;
 
@@ -11,7 +11,7 @@ void Photodiode::initialize(void){
 
 }
 
-bool Photodiode::runBlock(void) {
+bool BalancedPhotodetector::runBlock(void) {
 
 	double samplingPeriod = inputSignals[0]->getSamplingPeriod();
 

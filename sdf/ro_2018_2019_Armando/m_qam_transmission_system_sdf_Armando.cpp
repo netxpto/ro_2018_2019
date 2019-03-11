@@ -18,7 +18,8 @@ int samplesPerSymbol{ 8 };
 double txLocalOscillatorPower_dBm{ 0 };
 pulse_shapper_filter_type pulseShapperType{ pulse_shapper_filter_type::RaisedCosine };
 double raisedCosineRollOffFactor{ 0.1 };
-int pulseShapperLength_symbolPeriods{ 20 };
+int pulseShaperLength_symbolPeriods{ 20 };
+double rxLocalOscillatorPower_dBm{ 5 };
 
 
 int main() {
@@ -57,13 +58,14 @@ int main() {
 
 	MQamTransmitter MQamTransmitter_{ {&BinarySourceOut_1, &TxLocalOscillatorOut}, {&MQamTransmitterOut} };
 	MQamTransmitter_.setNumberOfSamplesPerSymbol(samplesPerSymbol);
-	MQamTransmitter_.setImpulseResponseTimeLength_symbolPeriods(pulseShapperLength_symbolPeriods);
+	MQamTransmitter_.setImpulseResponseTimeLength_symbolPeriods(pulseShaperLength_symbolPeriods);
 	MQamTransmitter_.setFilterType(pulseShapperType);
 	MQamTransmitter_.setRollOffFactor(raisedCosineRollOffFactor);
 
 	Laser RxLocalOscillator_{ {},{ &RxLocalOscillatorOut } };
 	RxLocalOscillator_.setSymbolPeriod(symbolPeriod_s);
 	RxLocalOscillator_.setSamplingPeriod(symbolPeriod_s / samplesPerSymbol);
+	RxLocalOscillator_.setOpticalPower_dBm(rxLocalOscillatorPower_dBm);
 
 	MQamReceiver MQamReceiver_{ {&MQamTransmitterOut, &RxLocalOscillatorOut} , {&MQamReceiverOut} };
 	MQamReceiver_.setNoiseSamplingPeriod(symbolPeriod_s / samplesPerSymbol);

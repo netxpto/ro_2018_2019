@@ -3,13 +3,13 @@
 
 # include "..\include\netxpto_20180815.h"
 
-class Photodiode : public Block {
+class BalancedPhotodetector : public Block {
 
 public:
 
 	//##############################################################################################################
 
-	Photodiode(initializer_list<Signal *> InputSig, initializer_list<Signal *> OutputSig) :Block(InputSig, OutputSig) {};
+	BalancedPhotodetector(initializer_list<Signal *> InputSig, initializer_list<Signal *> OutputSig) :Block(InputSig, OutputSig) {};
 	//Photodiode(vector<Signal *> &InputSig, vector<Signal *> &OutputSig) :Block(InputSig, OutputSig) {};
 	//Photodiode() {};
 

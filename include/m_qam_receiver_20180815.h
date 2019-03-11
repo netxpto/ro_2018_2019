@@ -4,7 +4,7 @@
 # include "../include/netxpto_20180815.h"
 
 # include "../include/optical_hybrid_20180815.h"
-# include "../include/photodiode_20180815.h"
+# include "../include/balanced_photodetector_20180815.h"
 # include "../include/ti_amplifier_20180815.h"
 # include "../include/pulse_shaper_20180815.h"
 # include "../include/white_noise_20180815.h"
@@ -28,7 +28,7 @@ public:
 	//##############################################################################################################
 
 	// Photodiodes config
-	void  setPhotodiodesResponsivity(t_real Responsivity) { Photodiode_1_.setResponsivity(Responsivity); Photodiode_2_.setResponsivity(Responsivity); };
+	void  setPhotodiodesResponsivity(t_real Responsivity) { BalancedPhotodetector_1_.setResponsivity(Responsivity); BalancedPhotodetector_2_.setResponsivity(Responsivity); };
 
 	// TI Amplifier config
 	void setGain(t_real gain) { TiAmplifier_1_.setGain(gain); TiAmplifier_2_.setGain(gain); };
@@ -115,8 +115,8 @@ private:
 	OpticalSignal OpticalHybridOut_S_Plus_iL{ "S4_OpticalHybridOut_S_Plus_iL.sgn" }; // S+iL
 	OpticalSignal OpticalHybridOut_S_Minus_iL{ "S5_OpticalHybridOut_S_Minus_iL.sgn" }; // S-iL
 
-	TimeContinuousAmplitudeContinuousReal PhotodiodeOut_1{ "S6_PhotodiodeOut_1.sgn" }; // Photodiode's output
-	TimeContinuousAmplitudeContinuousReal PhotodiodeOut_2{ "S7_PhotodiodeOut_2.sgn" }; // Photodiode's output
+	TimeContinuousAmplitudeContinuousReal BalancedPhotodetectorOut_1{ "S6_BalancedPhotodetectorOut_1.sgn" }; // Photodiode's output
+	TimeContinuousAmplitudeContinuousReal BalancedPhotodetectorOut_2{ "S7_BalancedPhotodetectorOut_2.sgn" }; // Photodiode's output
 
 	TimeContinuousAmplitudeContinuousReal TiAmplifierOut_1{ "S8_TiAmplifierOut_1.sgn" }; // TI_Amplifier output
 	TimeContinuousAmplitudeContinuousReal TiAmplifierOut_2{ "S9_TiAmplifierOut_2.sgn" }; // TI_Amplifier output
@@ -142,11 +142,11 @@ private:
 
 	OpticalHybrid OpticalHybrid_{ {&OpticalSignal_In, &LocalOscillator_In },{ &OpticalHybridOut_S_Plus_L, &OpticalHybridOut_S_Minus_L, &OpticalHybridOut_S_Plus_iL, &OpticalHybridOut_S_Minus_iL } };
 
-	Photodiode Photodiode_1_{ { &OpticalHybridOut_S_Plus_L, &OpticalHybridOut_S_Minus_L }, { &PhotodiodeOut_1 } };
-	Photodiode Photodiode_2_{ { &OpticalHybridOut_S_Plus_iL, &OpticalHybridOut_S_Minus_iL }, { &PhotodiodeOut_2 } };
+	BalancedPhotodetector BalancedPhotodetector_1_{ { &OpticalHybridOut_S_Plus_L, &OpticalHybridOut_S_Minus_L }, { &BalancedPhotodetectorOut_1 } };
+	BalancedPhotodetector BalancedPhotodetector_2_{ { &OpticalHybridOut_S_Plus_iL, &OpticalHybridOut_S_Minus_iL }, { &BalancedPhotodetectorOut_2 } };
 	
-	TiAmplifier TiAmplifier_1_{ { &PhotodiodeOut_1 }, { &TiAmplifierOut_1 }, "signals/SuperBlock_MQamReceiver/TiAmplifier_1" };
-	TiAmplifier TiAmplifier_2_{ { &PhotodiodeOut_2 }, { &TiAmplifierOut_2 }, "signals/SuperBlock_MQamReceiver/TiAmplifier_2" };
+	TiAmplifier TiAmplifier_1_{ { &BalancedPhotodetectorOut_1 }, { &TiAmplifierOut_1 }, "signals/SuperBlock_MQamReceiver/TiAmplifier_1" };
+	TiAmplifier TiAmplifier_2_{ { &BalancedPhotodetectorOut_2 }, { &TiAmplifierOut_2 }, "signals/SuperBlock_MQamReceiver/TiAmplifier_2" };
 
 	PulseShaper ReceiverFilter_1_{ { &TiAmplifierOut_1 },{ &ReceiverFilterOut_1 } }; // Matched Filter
 	PulseShaper ReceiverFilter_2_{ { &TiAmplifierOut_2 },{ &ReceiverFilterOut_2 } }; // Matched Filter

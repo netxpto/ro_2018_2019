@@ -65,8 +65,8 @@ void MQamReceiver::initialize()
 	setSuperBlockSystem(
 		{	
 			&OpticalHybrid_,
-			&Photodiode_1_,
-			&Photodiode_2_,
+			&BalancedPhotodetector_1_,
+			&BalancedPhotodetector_2_,
 			&TiAmplifier_1_,
 			&TiAmplifier_2_,
 			&ReceiverFilter_1_,
