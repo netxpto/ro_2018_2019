@@ -22,7 +22,8 @@ int pulseShaperLength_symbolPeriods{ 20 };
 double rxLocalOscillatorPower_dBm{ 6 };
 double amplifierInputNoisePowerSpectralDensity{ 0 };
 double thermalNoisePower{ 0 };
-int samplesToSkip{ (pulseShaperLength_symbolPeriods - 1)*samplesPerSymbol };
+int efImpulseResponseTimeLength{ 20 };
+int samplesToSkip{ (pulseShaperLength_symbolPeriods - 1)*samplesPerSymbol + (efImpulseResponseTimeLength *samplesPerSymbol/2)};
 
 
 int main() {
@@ -80,6 +81,8 @@ int main() {
 	MQamReceiver_.setAmplifierInputNoisePowerSpectralDensity(amplifierInputNoisePowerSpectralDensity);
 	MQamReceiver_.setThermalNoisePower(thermalNoisePower);
 	MQamReceiver_.setSamplesToSkip(samplesToSkip);
+	MQamReceiver_.setElFilterImpulseResponseTimeLength(efImpulseResponseTimeLength);
+	
 
 	BitErrorRate BitErrorRate_{ {&MQamReceiverOut, &BinarySourceOut_0},{ &BitErrorRateOut} };
 	
