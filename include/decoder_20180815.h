@@ -32,7 +32,7 @@ private:
 
 	t_integer m{ 4 };
 
-	vector<t_complex> iqAmplitudes{ { 1.0, 1.0 },{ -1.0, 1.0 },{ -1.0, -1.0 },{ 1.0, -1.0 } };
+	vector<t_complex> iqAmplitudes{ { 1,1 },{ -1,1 },{ 1,-1 },{ -1,-1 } };
 
 	/* State Variables */
 

@@ -19,7 +19,10 @@ double txLocalOscillatorPower_dBm{ 0 };
 pulse_shapper_filter_type pulseShapperType{ pulse_shapper_filter_type::RaisedCosine };
 double raisedCosineRollOffFactor{ 0.1 };
 int pulseShaperLength_symbolPeriods{ 20 };
-double rxLocalOscillatorPower_dBm{ 5 };
+double rxLocalOscillatorPower_dBm{ 6 };
+double amplifierInputNoisePowerSpectralDensity{ 0 };
+double thermalNoisePower{ 0 };
+int samplesToSkip{ (pulseShaperLength_symbolPeriods - 1)*samplesPerSymbol };
 
 
 int main() {
@@ -73,7 +76,10 @@ int main() {
 	MQamReceiver_.setPhotodiodesResponsivity(1.0);
 	MQamReceiver_.setGain(1.0);
 	MQamReceiver_.setElectricalFilterType(LowPass);
-	MQamReceiver_.setCutoffFrequency(10 / symbolPeriod_s);
+	MQamReceiver_.setCutoffFrequency( 1 / symbolPeriod_s);
+	MQamReceiver_.setAmplifierInputNoisePowerSpectralDensity(amplifierInputNoisePowerSpectralDensity);
+	MQamReceiver_.setThermalNoisePower(thermalNoisePower);
+	MQamReceiver_.setSamplesToSkip(samplesToSkip);
 
 	BitErrorRate BitErrorRate_{ {&MQamReceiverOut, &BinarySourceOut_0},{ &BitErrorRateOut} };
 	

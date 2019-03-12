@@ -1,7 +1,267 @@
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## WhiteNoise ##########
-Block start time: 2019-03-11 20:36:17
+Block start time: 2019-03-12 10:06:49
+Input Signals: 
+Output Signals: 
+WhiteNoise|S1_WhiteNoiseOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S1_WhiteNoiseOut|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+Block start time: 2019-03-12 10:06:49
+Input Signals: 
+Add|S0_ElectricalSignal_In|ready=512
+Add|S1_WhiteNoiseOut|ready=512
+Output Signals: 
+Add|S2_AddOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Add|S0_ElectricalSignal_In|ready=0
+Add|S1_WhiteNoiseOut|ready=0
+Output Signals: 
+Add|S2_AddOut|space=0
+
+
+-----------------------------------------------------------------
+########## IdealAmplifier ##########
+Block start time: 2019-03-12 10:06:49
+Input Signals: 
+IdealAmplifier|S2_AddOut|ready=512
+Output Signals: 
+IdealAmplifier|S3_IdealAmplifierOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 2 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IdealAmplifier|S2_AddOut|ready=0
+Output Signals: 
+IdealAmplifier|S3_IdealAmplifierOut|space=0
+
+
+-----------------------------------------------------------------
+########## ElectricalFilter ##########
+Block start time: 2019-03-12 10:06:49
+Input Signals: 
+ElectricalFilter|S3_IdealAmplifierOut|ready=512
+Output Signals: 
+ElectricalFilter|S4_ElectricalFilterOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 211 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+ElectricalFilter|S3_IdealAmplifierOut|ready=0
+Output Signals: 
+ElectricalFilter|S4_ElectricalFilterOut|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+Block start time: 2019-03-12 10:06:50
+Input Signals: 
+Output Signals: 
+WhiteNoise|S1_WhiteNoiseOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 4 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S1_WhiteNoiseOut|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+Block start time: 2019-03-12 10:06:50
+Input Signals: 
+Add|S0_ElectricalSignal_In|ready=512
+Add|S1_WhiteNoiseOut|ready=512
+Output Signals: 
+Add|S2_AddOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 4 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Add|S0_ElectricalSignal_In|ready=0
+Add|S1_WhiteNoiseOut|ready=0
+Output Signals: 
+Add|S2_AddOut|space=0
+
+
+-----------------------------------------------------------------
+########## IdealAmplifier ##########
+Block start time: 2019-03-12 10:06:50
+Input Signals: 
+IdealAmplifier|S2_AddOut|ready=512
+Output Signals: 
+IdealAmplifier|S3_IdealAmplifierOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IdealAmplifier|S2_AddOut|ready=0
+Output Signals: 
+IdealAmplifier|S3_IdealAmplifierOut|space=0
+
+
+-----------------------------------------------------------------
+########## ElectricalFilter ##########
+Block start time: 2019-03-12 10:06:50
+Input Signals: 
+ElectricalFilter|S3_IdealAmplifierOut|ready=512
+Output Signals: 
+ElectricalFilter|S4_ElectricalFilterOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 190 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+ElectricalFilter|S3_IdealAmplifierOut|ready=0
+Output Signals: 
+ElectricalFilter|S4_ElectricalFilterOut|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+Block start time: 2019-03-12 10:06:51
+Input Signals: 
+Output Signals: 
+WhiteNoise|S1_WhiteNoiseOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S1_WhiteNoiseOut|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+Block start time: 2019-03-12 10:06:51
+Input Signals: 
+Add|S0_ElectricalSignal_In|ready=512
+Add|S1_WhiteNoiseOut|ready=512
+Output Signals: 
+Add|S2_AddOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 6 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Add|S0_ElectricalSignal_In|ready=0
+Add|S1_WhiteNoiseOut|ready=0
+Output Signals: 
+Add|S2_AddOut|space=0
+
+
+-----------------------------------------------------------------
+########## IdealAmplifier ##########
+Block start time: 2019-03-12 10:06:51
+Input Signals: 
+IdealAmplifier|S2_AddOut|ready=512
+Output Signals: 
+IdealAmplifier|S3_IdealAmplifierOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IdealAmplifier|S2_AddOut|ready=0
+Output Signals: 
+IdealAmplifier|S3_IdealAmplifierOut|space=0
+
+
+-----------------------------------------------------------------
+########## ElectricalFilter ##########
+Block start time: 2019-03-12 10:06:51
+Input Signals: 
+ElectricalFilter|S3_IdealAmplifierOut|ready=512
+Output Signals: 
+ElectricalFilter|S4_ElectricalFilterOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 223 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+ElectricalFilter|S3_IdealAmplifierOut|ready=0
+Output Signals: 
+ElectricalFilter|S4_ElectricalFilterOut|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+Block start time: 2019-03-12 10:06:52
+Input Signals: 
+Output Signals: 
+WhiteNoise|S1_WhiteNoiseOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 4 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S1_WhiteNoiseOut|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+Block start time: 2019-03-12 10:06:52
+Input Signals: 
+Add|S0_ElectricalSignal_In|ready=512
+Add|S1_WhiteNoiseOut|ready=512
+Output Signals: 
+Add|S2_AddOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Add|S0_ElectricalSignal_In|ready=0
+Add|S1_WhiteNoiseOut|ready=0
+Output Signals: 
+Add|S2_AddOut|space=0
+
+
+-----------------------------------------------------------------
+########## IdealAmplifier ##########
+Block start time: 2019-03-12 10:06:52
+Input Signals: 
+IdealAmplifier|S2_AddOut|ready=512
+Output Signals: 
+IdealAmplifier|S3_IdealAmplifierOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 4 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IdealAmplifier|S2_AddOut|ready=0
+Output Signals: 
+IdealAmplifier|S3_IdealAmplifierOut|space=0
+
+
+-----------------------------------------------------------------
+########## ElectricalFilter ##########
+Block start time: 2019-03-12 10:06:52
+Input Signals: 
+ElectricalFilter|S3_IdealAmplifierOut|ready=512
+Output Signals: 
+ElectricalFilter|S4_ElectricalFilterOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 196 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+ElectricalFilter|S3_IdealAmplifierOut|ready=0
+Output Signals: 
+ElectricalFilter|S4_ElectricalFilterOut|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+Block start time: 2019-03-12 10:06:52
 Input Signals: 
 Output Signals: 
 WhiteNoise|S1_WhiteNoiseOut|space=512
@@ -15,14 +275,14 @@ WhiteNoise|S1_WhiteNoiseOut|space=0
 
 -----------------------------------------------------------------
 ########## Add ##########
-Block start time: 2019-03-11 20:36:17
+Block start time: 2019-03-12 10:06:52
 Input Signals: 
 Add|S0_ElectricalSignal_In|ready=512
 Add|S1_WhiteNoiseOut|ready=512
 Output Signals: 
 Add|S2_AddOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 7 milliseconds
+Elapsed time: 6 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Add|S0_ElectricalSignal_In|ready=0
@@ -33,13 +293,13 @@ Add|S2_AddOut|space=0
 
 -----------------------------------------------------------------
 ########## IdealAmplifier ##########
-Block start time: 2019-03-11 20:36:17
+Block start time: 2019-03-12 10:06:52
 Input Signals: 
 IdealAmplifier|S2_AddOut|ready=512
 Output Signals: 
 IdealAmplifier|S3_IdealAmplifierOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 3 milliseconds
+Elapsed time: 5 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 IdealAmplifier|S2_AddOut|ready=0
@@ -49,13 +309,13 @@ IdealAmplifier|S3_IdealAmplifierOut|space=0
 
 -----------------------------------------------------------------
 ########## ElectricalFilter ##########
-Block start time: 2019-03-11 20:36:17
+Block start time: 2019-03-12 10:06:52
 Input Signals: 
 ElectricalFilter|S3_IdealAmplifierOut|ready=512
 Output Signals: 
 ElectricalFilter|S4_ElectricalFilterOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 213 milliseconds
+Elapsed time: 196 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 ElectricalFilter|S3_IdealAmplifierOut|ready=0
@@ -66,7 +326,72 @@ ElectricalFilter|S4_ElectricalFilterOut|space=0
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## WhiteNoise ##########
-Block start time: 2019-03-11 20:36:18
+Block start time: 2019-03-12 10:06:53
+Input Signals: 
+Output Signals: 
+WhiteNoise|S1_WhiteNoiseOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S1_WhiteNoiseOut|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+Block start time: 2019-03-12 10:06:53
+Input Signals: 
+Add|S0_ElectricalSignal_In|ready=512
+Add|S1_WhiteNoiseOut|ready=512
+Output Signals: 
+Add|S2_AddOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 5 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Add|S0_ElectricalSignal_In|ready=0
+Add|S1_WhiteNoiseOut|ready=0
+Output Signals: 
+Add|S2_AddOut|space=0
+
+
+-----------------------------------------------------------------
+########## IdealAmplifier ##########
+Block start time: 2019-03-12 10:06:53
+Input Signals: 
+IdealAmplifier|S2_AddOut|ready=512
+Output Signals: 
+IdealAmplifier|S3_IdealAmplifierOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 4 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+IdealAmplifier|S2_AddOut|ready=0
+Output Signals: 
+IdealAmplifier|S3_IdealAmplifierOut|space=0
+
+
+-----------------------------------------------------------------
+########## ElectricalFilter ##########
+Block start time: 2019-03-12 10:06:53
+Input Signals: 
+ElectricalFilter|S3_IdealAmplifierOut|ready=512
+Output Signals: 
+ElectricalFilter|S4_ElectricalFilterOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 198 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+ElectricalFilter|S3_IdealAmplifierOut|ready=0
+Output Signals: 
+ElectricalFilter|S4_ElectricalFilterOut|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+Block start time: 2019-03-12 10:06:54
 Input Signals: 
 Output Signals: 
 WhiteNoise|S1_WhiteNoiseOut|space=512
@@ -80,7 +405,7 @@ WhiteNoise|S1_WhiteNoiseOut|space=0
 
 -----------------------------------------------------------------
 ########## Add ##########
-Block start time: 2019-03-11 20:36:18
+Block start time: 2019-03-12 10:06:54
 Input Signals: 
 Add|S0_ElectricalSignal_In|ready=512
 Add|S1_WhiteNoiseOut|ready=512
@@ -98,7 +423,7 @@ Add|S2_AddOut|space=0
 
 -----------------------------------------------------------------
 ########## IdealAmplifier ##########
-Block start time: 2019-03-11 20:36:18
+Block start time: 2019-03-12 10:06:54
 Input Signals: 
 IdealAmplifier|S2_AddOut|ready=512
 Output Signals: 
@@ -114,13 +439,13 @@ IdealAmplifier|S3_IdealAmplifierOut|space=0
 
 -----------------------------------------------------------------
 ########## ElectricalFilter ##########
-Block start time: 2019-03-11 20:36:18
+Block start time: 2019-03-12 10:06:54
 Input Signals: 
 ElectricalFilter|S3_IdealAmplifierOut|ready=512
 Output Signals: 
 ElectricalFilter|S4_ElectricalFilterOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 225 milliseconds
+Elapsed time: 239 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 ElectricalFilter|S3_IdealAmplifierOut|ready=0
@@ -131,12 +456,12 @@ ElectricalFilter|S4_ElectricalFilterOut|space=0
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## WhiteNoise ##########
-Block start time: 2019-03-11 20:36:19
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 Output Signals: 
 WhiteNoise|S1_WhiteNoiseOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 10 milliseconds
+Elapsed time: 12 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -145,339 +470,14 @@ WhiteNoise|S1_WhiteNoiseOut|space=0
 
 -----------------------------------------------------------------
 ########## Add ##########
-Block start time: 2019-03-11 20:36:19
-Input Signals: 
-Add|S0_ElectricalSignal_In|ready=512
-Add|S1_WhiteNoiseOut|ready=512
-Output Signals: 
-Add|S2_AddOut|space=512
------------------------------------------------------------------
-Elapsed time: 7 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Add|S0_ElectricalSignal_In|ready=0
-Add|S1_WhiteNoiseOut|ready=0
-Output Signals: 
-Add|S2_AddOut|space=0
-
-
------------------------------------------------------------------
-########## IdealAmplifier ##########
-Block start time: 2019-03-11 20:36:19
-Input Signals: 
-IdealAmplifier|S2_AddOut|ready=512
-Output Signals: 
-IdealAmplifier|S3_IdealAmplifierOut|space=512
------------------------------------------------------------------
-Elapsed time: 6 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IdealAmplifier|S2_AddOut|ready=0
-Output Signals: 
-IdealAmplifier|S3_IdealAmplifierOut|space=0
-
-
------------------------------------------------------------------
-########## ElectricalFilter ##########
-Block start time: 2019-03-11 20:36:19
-Input Signals: 
-ElectricalFilter|S3_IdealAmplifierOut|ready=512
-Output Signals: 
-ElectricalFilter|S4_ElectricalFilterOut|space=512
------------------------------------------------------------------
-Elapsed time: 237 milliseconds
------------------------------------------------------------------
-Input Signals: 
-ElectricalFilter|S3_IdealAmplifierOut|ready=0
-Output Signals: 
-ElectricalFilter|S4_ElectricalFilterOut|space=0
-
-
-The following input parameters were loaded from the configuration file:
------------------------------------------------------------------
-########## WhiteNoise ##########
-Block start time: 2019-03-11 20:36:20
-Input Signals: 
-Output Signals: 
-WhiteNoise|S1_WhiteNoiseOut|space=512
------------------------------------------------------------------
-Elapsed time: 5 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-WhiteNoise|S1_WhiteNoiseOut|space=0
-
-
------------------------------------------------------------------
-########## Add ##########
-Block start time: 2019-03-11 20:36:20
-Input Signals: 
-Add|S0_ElectricalSignal_In|ready=512
-Add|S1_WhiteNoiseOut|ready=512
-Output Signals: 
-Add|S2_AddOut|space=512
------------------------------------------------------------------
-Elapsed time: 5 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Add|S0_ElectricalSignal_In|ready=0
-Add|S1_WhiteNoiseOut|ready=0
-Output Signals: 
-Add|S2_AddOut|space=0
-
-
------------------------------------------------------------------
-########## IdealAmplifier ##########
-Block start time: 2019-03-11 20:36:20
-Input Signals: 
-IdealAmplifier|S2_AddOut|ready=512
-Output Signals: 
-IdealAmplifier|S3_IdealAmplifierOut|space=512
------------------------------------------------------------------
-Elapsed time: 5 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IdealAmplifier|S2_AddOut|ready=0
-Output Signals: 
-IdealAmplifier|S3_IdealAmplifierOut|space=0
-
-
------------------------------------------------------------------
-########## ElectricalFilter ##########
-Block start time: 2019-03-11 20:36:20
-Input Signals: 
-ElectricalFilter|S3_IdealAmplifierOut|ready=512
-Output Signals: 
-ElectricalFilter|S4_ElectricalFilterOut|space=512
------------------------------------------------------------------
-Elapsed time: 228 milliseconds
------------------------------------------------------------------
-Input Signals: 
-ElectricalFilter|S3_IdealAmplifierOut|ready=0
-Output Signals: 
-ElectricalFilter|S4_ElectricalFilterOut|space=0
-
-
-The following input parameters were loaded from the configuration file:
------------------------------------------------------------------
-########## WhiteNoise ##########
-Block start time: 2019-03-11 20:36:21
-Input Signals: 
-Output Signals: 
-WhiteNoise|S1_WhiteNoiseOut|space=512
------------------------------------------------------------------
-Elapsed time: 4 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-WhiteNoise|S1_WhiteNoiseOut|space=0
-
-
------------------------------------------------------------------
-########## Add ##########
-Block start time: 2019-03-11 20:36:21
-Input Signals: 
-Add|S0_ElectricalSignal_In|ready=512
-Add|S1_WhiteNoiseOut|ready=512
-Output Signals: 
-Add|S2_AddOut|space=512
------------------------------------------------------------------
-Elapsed time: 4 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Add|S0_ElectricalSignal_In|ready=0
-Add|S1_WhiteNoiseOut|ready=0
-Output Signals: 
-Add|S2_AddOut|space=0
-
-
------------------------------------------------------------------
-########## IdealAmplifier ##########
-Block start time: 2019-03-11 20:36:21
-Input Signals: 
-IdealAmplifier|S2_AddOut|ready=512
-Output Signals: 
-IdealAmplifier|S3_IdealAmplifierOut|space=512
------------------------------------------------------------------
-Elapsed time: 4 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IdealAmplifier|S2_AddOut|ready=0
-Output Signals: 
-IdealAmplifier|S3_IdealAmplifierOut|space=0
-
-
------------------------------------------------------------------
-########## ElectricalFilter ##########
-Block start time: 2019-03-11 20:36:21
-Input Signals: 
-ElectricalFilter|S3_IdealAmplifierOut|ready=512
-Output Signals: 
-ElectricalFilter|S4_ElectricalFilterOut|space=512
------------------------------------------------------------------
-Elapsed time: 207 milliseconds
------------------------------------------------------------------
-Input Signals: 
-ElectricalFilter|S3_IdealAmplifierOut|ready=0
-Output Signals: 
-ElectricalFilter|S4_ElectricalFilterOut|space=0
-
-
-The following input parameters were loaded from the configuration file:
------------------------------------------------------------------
-########## WhiteNoise ##########
-Block start time: 2019-03-11 20:36:22
-Input Signals: 
-Output Signals: 
-WhiteNoise|S1_WhiteNoiseOut|space=512
------------------------------------------------------------------
-Elapsed time: 5 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-WhiteNoise|S1_WhiteNoiseOut|space=0
-
-
------------------------------------------------------------------
-########## Add ##########
-Block start time: 2019-03-11 20:36:22
-Input Signals: 
-Add|S0_ElectricalSignal_In|ready=512
-Add|S1_WhiteNoiseOut|ready=512
-Output Signals: 
-Add|S2_AddOut|space=512
------------------------------------------------------------------
-Elapsed time: 5 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Add|S0_ElectricalSignal_In|ready=0
-Add|S1_WhiteNoiseOut|ready=0
-Output Signals: 
-Add|S2_AddOut|space=0
-
-
------------------------------------------------------------------
-########## IdealAmplifier ##########
-Block start time: 2019-03-11 20:36:22
-Input Signals: 
-IdealAmplifier|S2_AddOut|ready=512
-Output Signals: 
-IdealAmplifier|S3_IdealAmplifierOut|space=512
------------------------------------------------------------------
-Elapsed time: 5 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IdealAmplifier|S2_AddOut|ready=0
-Output Signals: 
-IdealAmplifier|S3_IdealAmplifierOut|space=0
-
-
------------------------------------------------------------------
-########## ElectricalFilter ##########
-Block start time: 2019-03-11 20:36:22
-Input Signals: 
-ElectricalFilter|S3_IdealAmplifierOut|ready=512
-Output Signals: 
-ElectricalFilter|S4_ElectricalFilterOut|space=512
------------------------------------------------------------------
-Elapsed time: 242 milliseconds
------------------------------------------------------------------
-Input Signals: 
-ElectricalFilter|S3_IdealAmplifierOut|ready=0
-Output Signals: 
-ElectricalFilter|S4_ElectricalFilterOut|space=0
-
-
-The following input parameters were loaded from the configuration file:
------------------------------------------------------------------
-########## WhiteNoise ##########
-Block start time: 2019-03-11 20:36:23
-Input Signals: 
-Output Signals: 
-WhiteNoise|S1_WhiteNoiseOut|space=512
------------------------------------------------------------------
-Elapsed time: 5 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-WhiteNoise|S1_WhiteNoiseOut|space=0
-
-
------------------------------------------------------------------
-########## Add ##########
-Block start time: 2019-03-11 20:36:23
-Input Signals: 
-Add|S0_ElectricalSignal_In|ready=512
-Add|S1_WhiteNoiseOut|ready=512
-Output Signals: 
-Add|S2_AddOut|space=512
------------------------------------------------------------------
-Elapsed time: 5 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Add|S0_ElectricalSignal_In|ready=0
-Add|S1_WhiteNoiseOut|ready=0
-Output Signals: 
-Add|S2_AddOut|space=0
-
-
------------------------------------------------------------------
-########## IdealAmplifier ##########
-Block start time: 2019-03-11 20:36:23
-Input Signals: 
-IdealAmplifier|S2_AddOut|ready=512
-Output Signals: 
-IdealAmplifier|S3_IdealAmplifierOut|space=512
------------------------------------------------------------------
-Elapsed time: 4 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IdealAmplifier|S2_AddOut|ready=0
-Output Signals: 
-IdealAmplifier|S3_IdealAmplifierOut|space=0
-
-
------------------------------------------------------------------
-########## ElectricalFilter ##########
-Block start time: 2019-03-11 20:36:23
-Input Signals: 
-ElectricalFilter|S3_IdealAmplifierOut|ready=512
-Output Signals: 
-ElectricalFilter|S4_ElectricalFilterOut|space=512
------------------------------------------------------------------
-Elapsed time: 221 milliseconds
------------------------------------------------------------------
-Input Signals: 
-ElectricalFilter|S3_IdealAmplifierOut|ready=0
-Output Signals: 
-ElectricalFilter|S4_ElectricalFilterOut|space=0
-
-
-The following input parameters were loaded from the configuration file:
------------------------------------------------------------------
-########## WhiteNoise ##########
-Block start time: 2019-03-11 20:36:24
-Input Signals: 
-Output Signals: 
-WhiteNoise|S1_WhiteNoiseOut|space=512
------------------------------------------------------------------
-Elapsed time: 11 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-WhiteNoise|S1_WhiteNoiseOut|space=0
-
-
------------------------------------------------------------------
-########## Add ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 Add|S0_ElectricalSignal_In|ready=424
 Add|S1_WhiteNoiseOut|ready=512
 Output Signals: 
 Add|S2_AddOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 1 milliseconds
+Elapsed time: 0 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Add|S0_ElectricalSignal_In|ready=0
@@ -488,7 +488,7 @@ Add|S2_AddOut|space=88
 
 -----------------------------------------------------------------
 ########## IdealAmplifier ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 IdealAmplifier|S2_AddOut|ready=424
 Output Signals: 
@@ -504,13 +504,13 @@ IdealAmplifier|S3_IdealAmplifierOut|space=88
 
 -----------------------------------------------------------------
 ########## ElectricalFilter ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 ElectricalFilter|S3_IdealAmplifierOut|ready=424
 Output Signals: 
 ElectricalFilter|S4_ElectricalFilterOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 173 milliseconds
+Elapsed time: 172 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 ElectricalFilter|S3_IdealAmplifierOut|ready=0
@@ -521,12 +521,12 @@ ElectricalFilter|S4_ElectricalFilterOut|space=88
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## WhiteNoise ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 Output Signals: 
 WhiteNoise|S1_WhiteNoiseOut|space=424
 -----------------------------------------------------------------
-Elapsed time: 4 milliseconds
+Elapsed time: 6 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -535,7 +535,7 @@ WhiteNoise|S1_WhiteNoiseOut|space=0
 
 -----------------------------------------------------------------
 ########## Add ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 Add|S0_ElectricalSignal_In|ready=0
 Add|S1_WhiteNoiseOut|ready=512
@@ -553,7 +553,7 @@ Add|S2_AddOut|space=512
 
 -----------------------------------------------------------------
 ########## IdealAmplifier ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 IdealAmplifier|S2_AddOut|ready=0
 Output Signals: 
@@ -569,7 +569,7 @@ IdealAmplifier|S3_IdealAmplifierOut|space=512
 
 -----------------------------------------------------------------
 ########## ElectricalFilter ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 ElectricalFilter|S3_IdealAmplifierOut|ready=0
 Output Signals: 
@@ -586,7 +586,7 @@ ElectricalFilter|S4_ElectricalFilterOut|space=512
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## WhiteNoise ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 Output Signals: 
 WhiteNoise|S1_WhiteNoiseOut|space=0
@@ -600,7 +600,7 @@ WhiteNoise|S1_WhiteNoiseOut|space=0
 
 -----------------------------------------------------------------
 ########## Add ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 Add|S0_ElectricalSignal_In|ready=0
 Add|S1_WhiteNoiseOut|ready=512
@@ -618,7 +618,7 @@ Add|S2_AddOut|space=512
 
 -----------------------------------------------------------------
 ########## IdealAmplifier ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 IdealAmplifier|S2_AddOut|ready=0
 Output Signals: 
@@ -634,7 +634,7 @@ IdealAmplifier|S3_IdealAmplifierOut|space=512
 
 -----------------------------------------------------------------
 ########## ElectricalFilter ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 ElectricalFilter|S3_IdealAmplifierOut|ready=0
 Output Signals: 
@@ -651,7 +651,7 @@ ElectricalFilter|S4_ElectricalFilterOut|space=512
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## WhiteNoise ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 Output Signals: 
 WhiteNoise|S1_WhiteNoiseOut|space=0
@@ -665,7 +665,7 @@ WhiteNoise|S1_WhiteNoiseOut|space=0
 
 -----------------------------------------------------------------
 ########## Add ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 Add|S0_ElectricalSignal_In|ready=0
 Add|S1_WhiteNoiseOut|ready=512
@@ -683,7 +683,7 @@ Add|S2_AddOut|space=512
 
 -----------------------------------------------------------------
 ########## IdealAmplifier ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 IdealAmplifier|S2_AddOut|ready=0
 Output Signals: 
@@ -699,7 +699,7 @@ IdealAmplifier|S3_IdealAmplifierOut|space=512
 
 -----------------------------------------------------------------
 ########## ElectricalFilter ##########
-Block start time: 2019-03-11 20:36:24
+Block start time: 2019-03-12 10:06:55
 Input Signals: 
 ElectricalFilter|S3_IdealAmplifierOut|ready=0
 Output Signals: 
