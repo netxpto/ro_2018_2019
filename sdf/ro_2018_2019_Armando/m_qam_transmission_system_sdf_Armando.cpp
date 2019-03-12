@@ -16,14 +16,16 @@ int constellationCardinality{ 4 };
 double symbolPeriod_s{ 2e-11 };	
 int samplesPerSymbol{ 8 };
 double txLocalOscillatorPower_dBm{ 0 };
-pulse_shapper_filter_type pulseShapperType{ pulse_shapper_filter_type::RaisedCosine };
+pulse_shapper_filter_type txPulseShapperType{ pulse_shapper_filter_type::RaisedCosine };
 double raisedCosineRollOffFactor{ 0.1 };
-int pulseShaperLength_symbolPeriods{ 20 };
+int txPulseShaperLength_symbolPeriods{ 20 };
 double rxLocalOscillatorPower_dBm{ 6 };
-double amplifierInputNoisePowerSpectralDensity{ 0 };
-double thermalNoisePower{ 0 };
-int efImpulseResponseTimeLength{ 20 };
-int samplesToSkip{ (pulseShaperLength_symbolPeriods - 1)*samplesPerSymbol + (efImpulseResponseTimeLength *samplesPerSymbol/2)};
+double rxTiAmplifierInputNoisePowerSpectralDensity{ 0 };
+int rxTiAmplifierImpulseResponseTimeLength_symbolPeriods{ 20 };
+double rxTiAmplifierBandwidth{ 50.0e9 };
+double rxThermalNoisePower{ 0 };
+pulse_shapper_filter_type rxElectricalFilterImpulseResponseType{ pulse_shapper_filter_type::RaisedCosine };
+int rxSamplerSamplesToSkip{ (txPulseShaperLength_symbolPeriods - 1)*samplesPerSymbol + (rxTiAmplifierImpulseResponseTimeLength_symbolPeriods *samplesPerSymbol/2)};
 
 
 int main() {
@@ -62,8 +64,8 @@ int main() {
 
 	MQamTransmitter MQamTransmitter_{ {&BinarySourceOut_1, &TxLocalOscillatorOut}, {&MQamTransmitterOut} };
 	MQamTransmitter_.setNumberOfSamplesPerSymbol(samplesPerSymbol);
-	MQamTransmitter_.setImpulseResponseTimeLength_symbolPeriods(pulseShaperLength_symbolPeriods);
-	MQamTransmitter_.setFilterType(pulseShapperType);
+	MQamTransmitter_.setImpulseResponseTimeLength_symbolPeriods(txPulseShaperLength_symbolPeriods);
+	MQamTransmitter_.setFilterType(txPulseShapperType);
 	MQamTransmitter_.setRollOffFactor(raisedCosineRollOffFactor);
 
 	Laser RxLocalOscillator_{ {},{ &RxLocalOscillatorOut } };
@@ -76,12 +78,14 @@ int main() {
 	MQamReceiver_.setNoiseSymbolPeriod(symbolPeriod_s);
 	MQamReceiver_.setPhotodiodesResponsivity(1.0);
 	MQamReceiver_.setGain(1.0);
-	MQamReceiver_.setElectricalFilterType(LowPass);
-	MQamReceiver_.setCutoffFrequency( 1 / symbolPeriod_s);
-	MQamReceiver_.setAmplifierInputNoisePowerSpectralDensity(amplifierInputNoisePowerSpectralDensity);
-	MQamReceiver_.setThermalNoisePower(thermalNoisePower);
-	MQamReceiver_.setSamplesToSkip(samplesToSkip);
-	MQamReceiver_.setElFilterImpulseResponseTimeLength(efImpulseResponseTimeLength);
+	MQamReceiver_.setTiAmplifierFilterType(LowPass);
+	MQamReceiver_.setTiAmplifierCutoffFrequency(rxTiAmplifierBandwidth);
+	MQamReceiver_.setTiAmplifierImpulseResponseTimeLength_symbolPeriods(rxTiAmplifierImpulseResponseTimeLength_symbolPeriods);
+	MQamReceiver_.setAmplifierInputNoisePowerSpectralDensity(rxTiAmplifierInputNoisePowerSpectralDensity);
+	MQamReceiver_.setThermalNoisePower(rxThermalNoisePower);
+	MQamReceiver_.setSamplesToSkip(rxSamplerSamplesToSkip);
+	MQamReceiver_.setFilterType(rxElectricalFilterImpulseResponseType);
+	MQamReceiver_.setRollOffFactor(raisedCosineRollOffFactor);
 	
 
 	BitErrorRate BitErrorRate_{ {&MQamReceiverOut, &BinarySourceOut_0},{ &BitErrorRateOut} };

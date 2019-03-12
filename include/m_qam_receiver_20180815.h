@@ -37,19 +37,18 @@ public:
 	void setAmplifierInputNoisePowerSpectralDensity(t_real NoiseSpectralDensity) { TiAmplifier_1_.setInputReferredNoisePowerSpectralDensity(NoiseSpectralDensity); TiAmplifier_2_.setInputReferredNoisePowerSpectralDensity(NoiseSpectralDensity); };
 	t_real getAmplifierInputNoisePowerSpectralDensity(void) { TiAmplifier_1_.getInputReferredNoisePowerSpectralDensity(); };
 
-	void setElectricalFilterType(Filter fType) { TiAmplifier_1_.setFilterType(fType); TiAmplifier_2_.setFilterType(fType); };
+	void setTiAmplifierFilterType(Filter fType) { TiAmplifier_1_.setFilterType(fType); TiAmplifier_2_.setFilterType(fType); };
 
-	void setCutoffFrequency(double ctfFreq) { TiAmplifier_1_.setCutoffFrequency(ctfFreq); TiAmplifier_2_.setCutoffFrequency(ctfFreq); }
+	void setTiAmplifierCutoffFrequency(double ctfFreq) { TiAmplifier_1_.setCutoffFrequency(ctfFreq); TiAmplifier_2_.setCutoffFrequency(ctfFreq); }
 
-	void setElFilterImpulseResponseTimeLength(int irl) { TiAmplifier_1_.setImpulseResponseTimeLength(irl);  TiAmplifier_2_.setImpulseResponseTimeLength(irl); }
+	void setTiAmplifierImpulseResponseTimeLength_symbolPeriods(int irl) { TiAmplifier_1_.setImpulseResponseTimeLength(irl);  TiAmplifier_2_.setImpulseResponseTimeLength(irl); }
 
-	void setElFilterImpulseResponse(vector<t_real> ir) { TiAmplifier_1_.setImpulseResponse(ir); TiAmplifier_2_.setImpulseResponse(ir);; }
+	void setElectricalFilterImpulseResponse(vector<t_real> ir) { TiAmplifier_1_.setImpulseResponse(ir); TiAmplifier_2_.setImpulseResponse(ir);; }
 
-	void setEFImpulseResponseFilename(string fName) { TiAmplifier_1_.setImpulseResponseFilename(fName); TiAmplifier_2_.setImpulseResponseFilename(fName); }
+	void setElectricalImpulseResponseFilename(string fName) { TiAmplifier_1_.setImpulseResponseFilename(fName); TiAmplifier_2_.setImpulseResponseFilename(fName); }
 
-	void setEFSeeBeginningOfImpulseResponse(bool sBeginningOfImpulseResponse) { TiAmplifier_1_.setSeeBeginningOfImpulseResponse(sBeginningOfImpulseResponse); TiAmplifier_2_.setSeeBeginningOfImpulseResponse(sBeginningOfImpulseResponse); };
-
-	double const getEFSeeBeginningOfImpulseResponse(void) { return TiAmplifier_1_.getSeeBeginningOfImpulseResponse(); };
+	void setElectricalSeeBeginningOfImpulseResponse(bool sBeginningOfImpulseResponse) { TiAmplifier_1_.setSeeBeginningOfImpulseResponse(sBeginningOfImpulseResponse); TiAmplifier_2_.setSeeBeginningOfImpulseResponse(sBeginningOfImpulseResponse); };
+	double const getElectricalSeeBeginningOfImpulseResponse(void) { return TiAmplifier_1_.getSeeBeginningOfImpulseResponse(); };
 
 	// General Noise
 	void setNoiseSamplingPeriod(t_real SamplingPeriod) {WhiteNoise_1_.setSamplingPeriod(SamplingPeriod); WhiteNoise_2_.setSamplingPeriod(SamplingPeriod); TiAmplifier_1_.setNoiseSamplingPeriod(SamplingPeriod); TiAmplifier_2_.setNoiseSamplingPeriod(SamplingPeriod); };
