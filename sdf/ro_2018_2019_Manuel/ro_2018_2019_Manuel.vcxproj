@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{658FAF2B-CAA0-4DEC-91E6-5E03DE0D742B}</ProjectGuid>
-    <RootNamespace>ro20182019Manuel</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{5A8A6F72-25C4-484A-AE9B-1D218931AF38}</ProjectGuid>
+    <RootNamespace>ro20182019Armando</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,15 +115,48 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\lib\add_20180815.cpp" />
+    <ClCompile Include="..\..\lib\balanced_photodetector_20180815.cpp" />
     <ClCompile Include="..\..\lib\binary_source_20180815.cpp" />
+    <ClCompile Include="..\..\lib\bit_error_rate_20180815.cpp" />
+    <ClCompile Include="..\..\lib\decoder_20180815.cpp" />
     <ClCompile Include="..\..\lib\discrete_to_continuous_time_20180815.cpp" />
+    <ClCompile Include="..\..\lib\electrical_filter_20180815.cpp" />
+    <ClCompile Include="..\..\lib\ideal_amplifier_20180815.cpp" />
     <ClCompile Include="..\..\lib\iq_modulator_20180815.cpp" />
     <ClCompile Include="..\..\lib\laser_20180815.cpp" />
     <ClCompile Include="..\..\lib\m_qam_mapper_20180815.cpp" />
+    <ClCompile Include="..\..\lib\m_qam_receiver_20180815.cpp" />
+    <ClCompile Include="..\..\lib\m_qam_transmitter_20180815.cpp" />
     <ClCompile Include="..\..\lib\netxpto_20180815.cpp" />
+    <ClCompile Include="..\..\lib\optical_hybrid_20180815.cpp" />
     <ClCompile Include="..\..\lib\pulse_shaper_20180815.cpp" />
+    <ClCompile Include="..\..\lib\sampler_20180815.cpp" />
     <ClCompile Include="..\..\lib\sink_20180815.cpp" />
-    <ClCompile Include="m_qam_transmission_system_sdf_Manuel.cpp" />
+    <ClCompile Include="..\..\lib\ti_amplifier_20180815.cpp" />
+    <ClCompile Include="..\..\lib\white_noise_20190215.cpp" />
+    <ClCompile Include="m_qam_transmission_system_sdf_Armando.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\add_20180815.h" />
+    <ClInclude Include="..\..\include\balanced_photodetector_20180815.h" />
+    <ClInclude Include="..\..\include\binary_source_20180815.h" />
+    <ClInclude Include="..\..\include\bit_error_rate_20180815.h" />
+    <ClInclude Include="..\..\include\decoder_20180815.h" />
+    <ClInclude Include="..\..\include\discrete_to_continuous_time_20180815.h" />
+    <ClInclude Include="..\..\include\electrical_filter_20180815.h" />
+    <ClInclude Include="..\..\include\ideal_amplifier_20180815.h" />
+    <ClInclude Include="..\..\include\iq_modulator_20180815.h" />
+    <ClInclude Include="..\..\include\laser_20180815.h" />
+    <ClInclude Include="..\..\include\m_qam_mapper_20180815.h" />
+    <ClInclude Include="..\..\include\m_qam_receiver_20180815.h" />
+    <ClInclude Include="..\..\include\m_qam_transmitter_20180815.h" />
+    <ClInclude Include="..\..\include\netxpto_20180815.h" />
+    <ClInclude Include="..\..\include\optical_hybrid_20180815.h" />
+    <ClInclude Include="..\..\include\pulse_shaper_20180815.h" />
+    <ClInclude Include="..\..\include\sampler_20180815.h" />
+    <ClInclude Include="..\..\include\ti_amplifier_20180815.h" />
+    <ClInclude Include="..\..\include\white_noise_20180815.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
