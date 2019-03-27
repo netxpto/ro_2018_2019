@@ -37,7 +37,9 @@ doc/tex/main_netxpto.pdf
 *.gz
 *.toc
 *.bak
-
+*.bbl
+*.bcf
+*.blg
 ######################
 # Matlab
 ######################
