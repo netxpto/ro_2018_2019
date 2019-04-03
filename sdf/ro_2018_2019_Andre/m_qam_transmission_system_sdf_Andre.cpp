@@ -36,8 +36,8 @@ int main() {
 
 	Binary BinarySourceOut_0{ "S0_BinarySourceOut_0.sgn" };
 
-	Binary BinarySourceOut_1{ "S1_BinarySourceOut_0.sgn" };
-
+	Binary BinarySourceOut_1{ "S1_BinarySourceOut_1.sgn" };
+	
 	OpticalSignal TxLocalOscillatorOut{ "S2_TxLocalOscillatorOut.sgn" };
 	
 	OpticalSignal MQamTransmitterOut{ "S3_MQamTransmitterOut.sgn" };
@@ -56,6 +56,9 @@ int main() {
 
 	BinarySource BinarySource_{ {}, { &BinarySourceOut_0, &BinarySourceOut_1 } };
 	BinarySource_.setBitPeriod(symbolPeriod_s / log2(constellationCardinality));
+	BinarySource_.setMode(BinarySourceMode::PseudoRandom);
+	// BinarySource_.setBitStream("0100011101010101");
+	// BinarySource_.setNumberOfBits(20);
 
 	Laser TxLocalOscillator_{ {},{ &TxLocalOscillatorOut } };
 	TxLocalOscillator_.setSymbolPeriod(symbolPeriod_s);
@@ -67,6 +70,7 @@ int main() {
 	MQamTransmitter_.setImpulseResponseTimeLength_symbolPeriods(txPulseShaperLength_symbolPeriods);
 	MQamTransmitter_.setFilterType(txPulseShapperType);
 	MQamTransmitter_.setRollOffFactor(raisedCosineRollOffFactor);
+	// MQamTransmitter_.setIqAmplitudes();
 
 	Laser RxLocalOscillator_{ {},{ &RxLocalOscillatorOut } };
 	RxLocalOscillator_.setSymbolPeriod(symbolPeriod_s);
@@ -87,6 +91,7 @@ int main() {
 	MQamReceiver_.setFilterType(rxElectricalFilterImpulseResponseType);
 	MQamReceiver_.setRollOffFactor(raisedCosineRollOffFactor);
 	
+
 
 	BitErrorRate BitErrorRate_{ {&MQamReceiverOut, &BinarySourceOut_0},{ &BitErrorRateOut} };
 	
