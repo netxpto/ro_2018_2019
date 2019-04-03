@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="m_qam_transmission_system_sdf_Armando.cpp">
+    <ClCompile Include="m_qam_transmission_system_sdf_Manuel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\lib\binary_source_20180815.cpp">

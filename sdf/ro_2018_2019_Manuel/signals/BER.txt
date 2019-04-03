@@ -1,5 +1,12 @@
-BER= 0
-Upper and lower confidence bounds for 95% confidence level 
-Upper Bound= 0.000706215
-Lower Bound= 1e-10
-Number of received bits =944
+
+Guidelines for implementation of a fiber model block:
+
+- input parameters:
+z
+beta2
+attenuation
+pulse width
+
+
+- the block has an internal instance of a FD_Filterb block, already available on the netxpto library, uses the transfer function of the fiber andconcolutes it with
+the input signal outputting it to the

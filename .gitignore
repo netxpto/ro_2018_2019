@@ -27,6 +27,7 @@ doc/tex/main_netxpto.pdf
 *.json
 *.sqlite
 *.ipch
+sdf/ro_2018_2019_Manuel/.vs/
 
 ######################
 # Winedt

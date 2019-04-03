@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{5A8A6F72-25C4-484A-AE9B-1D218931AF38}</ProjectGuid>
-    <RootNamespace>ro20182019Armando</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <RootNamespace>ro20182019Manuel</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -135,7 +135,7 @@
     <ClCompile Include="..\..\lib\sink_20180815.cpp" />
     <ClCompile Include="..\..\lib\ti_amplifier_20180815.cpp" />
     <ClCompile Include="..\..\lib\white_noise_20190215.cpp" />
-    <ClCompile Include="m_qam_transmission_system_sdf_Armando.cpp" />
+    <ClCompile Include="m_qam_transmission_system_sdf_Manuel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\add_20180815.h" />

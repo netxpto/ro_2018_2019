@@ -1,0 +1,5 @@
+BER= 0.00533981
+Upper and lower confidence bounds for0.95confidence level 
+Upper Bound= 0.00617347
+Lower Bound= 0.00451593
+Number of received bits =30900
