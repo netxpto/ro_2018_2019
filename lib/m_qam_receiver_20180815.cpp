@@ -52,6 +52,7 @@ MQamReceiver::MQamReceiver(initializer_list<Signal *> inputSignals, initializer_
 */
 };
 
+
 void MQamReceiver::initialize()
 {
 	OpticalSignal_In.setSymbolPeriod(inputSignals[0]->getSymbolPeriod());

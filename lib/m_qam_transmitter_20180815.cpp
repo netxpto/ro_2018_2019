@@ -73,6 +73,7 @@ void MQamTransmitter::initialize()
 		}
 	);
 
+
 	outputSignals[0]->setSymbolPeriod(OpticalSignal_Out.getSymbolPeriod());
 	outputSignals[0]->setSamplingPeriod(OpticalSignal_Out.getSamplingPeriod());
 	outputSignals[0]->setFirstValueToBeSaved(OpticalSignal_Out.getFirstValueToBeSaved());

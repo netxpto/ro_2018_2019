@@ -39,9 +39,9 @@ private:
 
 	double frequencyMismatch{ 0 };
 	double responsivity = 1;
-	bool shotNoise{ false };
+	bool shotNoise{ true };
 
-	bool thermalNoise{ false };
+	bool thermalNoise{ true };
 	t_real thermalNoiseAmplitude = 4.7626e-06;
 
 	default_random_engine generatorAmp1;

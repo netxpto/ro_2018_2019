@@ -72,7 +72,7 @@ void MQamMapper::setIqAmplitudes(vector<vector<t_real>> iqAmplitudesValues){
 void MQamMapper::setM(int mValue){
 	m = mValue;
 
-	iqAmplitudes.resize(m);
+	//iqAmplitudes.resize(m);
 	switch (m) {
 	case 4:
 		iqAmplitudes = { { 1.0, 1.0 }, { -1.0, 1.0 }, { -1.0, -1.0 }, { 1.0, -1.0 } };

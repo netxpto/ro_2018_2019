@@ -51,7 +51,7 @@ private:
 
 	/* State Variables */
 
-	double phase{ 0 };
+	double phase{ 0.0 };
 
 	/* Input Parameters */
 
@@ -62,8 +62,8 @@ private:
 	double samplingPeriod{ 0.0 };
 	double symbolPeriod{ 0.0 };
 	double laserLineWidth{ 0.0 };
-	double laserRIN{ 0.0 };
-	double frequencyMismatch{ 0.0 };
+	double laserRIN{ 0.0};
+	double frequencyMismatch{ 0 };
 
 	default_random_engine generatorRIN;
 	default_random_engine generatorPhaseNoise;
