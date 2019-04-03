@@ -6,7 +6,7 @@
 	\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
 		\textbf{Header File}   &:& m\_qam\_transmitter.h \\
 		\textbf{Source File}   &:& m\_qam\_transmitter.cpp \\
-        \textbf{Version}       &:& 20180815 (\emph{Student Name})\\
+        \textbf{Version}       &:& 20190403 (\emph{Jorge Ribeiro})\\
 	\end{tabular}
 \end{tcolorbox}
 
@@ -136,7 +136,36 @@ t\_real const getOutputOpticalPower\_dBm(void)
 
 \subparagraph*{Type:} Optical signal
 
-\subsection*{Example}
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{./lib/m_qam_transmitter/figures/MQAMTransmiterConstelllation}
+\caption{Constellation of the MQAM Transmitter. }
+\end{figure}
+
+This MQAM Constellation resembles a 4-QAM Constellation whose points are theoretically set in (-d-jL; -d+jL; d-jL; d+jL).
+
+ \begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{./lib/m_qam_transmitter/figures/MQAMTransmiter_Time}
+\caption{Amplitude vs Time output of the MQAM transmitter. }
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{./lib/m_qam_transmitter/figures/Transmitter_Magnitude2_Phase}
+\caption{Squared Magnitude and Phase response of the MQAM transmitter.  }
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{./lib/m_qam_transmitter/figures/Transmitter_Magnitude_Phase}
+\caption{Magnitude and Phase response of the MQAM transmitter.   }
+\end{figure}
+
+
+
+
+%\subsection*{Example}
 
 %\begin{figure}[h]
 %	\centering
