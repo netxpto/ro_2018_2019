@@ -6,7 +6,9 @@
 	\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
 		\textbf{Header File}   &:& m\_qam\_receiver.h \\
 		\textbf{Source File}   &:& m\_qam\_receiver.cpp \\
-        \textbf{Version}       &:& 20180815 (\emph{Student Name})\\
+        \textbf{Version}       &:& 20180815 (\emph{Filipa Simoes})\\
+        
+        
 	\end{tabular}
 \end{tcolorbox}
 
@@ -57,25 +59,25 @@ summarized.
 			\hline
 			\textbf{Input parameters} & \textbf{Function} & \textbf{Type} &
 			\textbf{Accepted values} \\ \hline
-%			IQ amplitudes & setIqAmplitudes & Vector of coordinate points in the I-Q
-%			plane & \textbf{Example} for a 4-QAM mapping: \{ \{ 1.0, 1.0 \}, \{ -1.0,
-%			1.0 \}, \{ -1.0, -1.0 \}, \{ 1.0, -1.0 \} \} \\ \hline
-%			Local oscillator power (in dBm) & setLocalOscillatorOpticalPower\_dBm &
-%			double(t\_real) & Any double greater than zero\\ \hline
-%			Local oscillator phase & setLocalOscillatorPhase & double(t\_real) & Any
-%			double greater than zero\\ \hline
-%			Responsivity of the photodiodes & setResponsivity & double(t\_real)
-%			&$\in$ [0,1] \\ \hline
-%			Amplification (of the TI amplifier) & setAmplification & double(t\_real)
-%			& Positive real number\\ \hline
-%			Noise amplitude (introduced by the TI amplifier) & setNoiseAmplitude &
-%			double(t\_real) & Real number greater than zero \\ \hline
-%			Samples to skipe & setSamplesToSkip & int(t\_integer) &  \\ \hline
-%			Save internal signals & setSaveInternalSignals & bool & True or False\\
-%			\hline
-%			Sampling period & setSamplingPeriod & double & Given by
-%			\textit{symbolPeriod}/\textit{samplesPerSymbol}\\
-%			\hline
+			IQ amplitudes & setIqAmplitudes & Vector of coordinate points in the I-Q
+			plane & \textbf{Example} for a 4-QAM mapping: \{ \{ 1.0, 1.0 \}, \{ -1.0,
+			1.0 \}, \{ -1.0, -1.0 \}, \{ 1.0, -1.0 \} \} \\ \hline
+			Local oscillator power (in dBm) & setLocalOscillatorOpticalPower\_dBm &
+			double(t\_real) & Any double greater than zero\\ \hline
+			Local oscillator phase & setLocalOscillatorPhase & double(t\_real) & Any
+			double greater than zero\\ \hline
+			Responsivity of the photodiodes & setResponsivity & double(t\_real)
+			&$\in$ [0,1] \\ \hline
+			Amplification (of the TI amplifier) & setAmplification & double(t\_real)
+			& Positive real number\\ \hline
+			Noise amplitude (introduced by the TI amplifier) & setNoiseAmplitude &
+			double(t\_real) & Real number greater than zero \\ \hline
+			Samples to skipe & setSamplesToSkip & int(t\_integer) &  \\ \hline
+			Save internal signals & setSaveInternalSignals & bool & True or False\\
+			\hline
+			Sampling period & setSamplingPeriod & double & Given by
+			\textit{symbolPeriod}/\textit{samplesPerSymbol}\\
+			\hline
 		\end{tabular}
 		\caption{List of input parameters of the block MQAM receiver}
 		\label{tab:homodyneRx_params}
@@ -136,5 +138,15 @@ summarized.
 \subparagraph*{Type:} Binary signal
 
 \subsection*{Example}
+1)Receiver sensitivity: the sensitivity is given by thermal background noise.The fact that there is a constant noise source means that not all signals are detected correctly.\\ 2)Impact of the electrical amplifier: The electrical noise originates from thermal noise.The eletrical amplifier increases the IES of the signal. As the bandwith decreases, the IES increases.\\ 
+3)Impact of the electrical filter:Contrary to what happened in the transmission, the IES is no longer zero, since we are multiplying two raised cosines, as can be seen in the figure \ref{fig:eyediagram1011}. One way to minimize this effect would be by applying a square root block. If the laser is optimal it maximizes the SNR.
 
-\subsection*{Sugestions for future improvement}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{../lib/m_qam_receiver/figures/S10_S11_eye.pdf}
+	\caption{Eye Diagram of Receiver Filter Out 1 and 2}\label{fig:eyediagram1011}
+\end{figure}
+4)Impact of the local oscillator power : The laser has gain effect and produces quantum noise. \\
+5)Bit error rate: By increasing the BER, the signal has lower quality. Thus, the purpose of the receiver system is to minimize the BER.
+
