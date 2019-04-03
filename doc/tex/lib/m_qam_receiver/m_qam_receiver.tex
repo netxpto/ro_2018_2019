@@ -6,7 +6,7 @@
 	\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
 		\textbf{Header File}   &:& m\_qam\_receiver.h \\
 		\textbf{Source File}   &:& m\_qam\_receiver.cpp \\
-        \textbf{Version}       &:& 20180815 (\emph{Student Name})\\
+        \textbf{Version}       &:& 20180815 (\emph{Helena Ribeiro})\\
 	\end{tabular}
 \end{tcolorbox}
 
@@ -40,6 +40,7 @@ not include the local oscillator.
 	\caption{Schematic representation of the block homodyne
 	receiver.}\label{fig:homodyneRx_blocks}
 \end{figure}
+\pagebreak
 
 \subsection*{Input parameters}
 
@@ -50,77 +51,77 @@ particular function. In the following table
 (Table~\ref{tab:homodyneRx_params}) the input parameters and corresponding
 functions are
 summarized.
-%
+
 \begin{table}[h]
 	\begin{center}
 		\begin{tabular}{| m{3,2cm} | m{6,2cm} |  m{2,2cm} | m{4cm} | }
 			\hline
 			\textbf{Input parameters} & \textbf{Function} & \textbf{Type} &
 			\textbf{Accepted values} \\ \hline
-%			IQ amplitudes & setIqAmplitudes & Vector of coordinate points in the I-Q
-%			plane & \textbf{Example} for a 4-QAM mapping: \{ \{ 1.0, 1.0 \}, \{ -1.0,
-%			1.0 \}, \{ -1.0, -1.0 \}, \{ 1.0, -1.0 \} \} \\ \hline
-%			Local oscillator power (in dBm) & setLocalOscillatorOpticalPower\_dBm &
-%			double(t\_real) & Any double greater than zero\\ \hline
-%			Local oscillator phase & setLocalOscillatorPhase & double(t\_real) & Any
-%			double greater than zero\\ \hline
-%			Responsivity of the photodiodes & setResponsivity & double(t\_real)
-%			&$\in$ [0,1] \\ \hline
-%			Amplification (of the TI amplifier) & setAmplification & double(t\_real)
-%			& Positive real number\\ \hline
-%			Noise amplitude (introduced by the TI amplifier) & setNoiseAmplitude &
-%			double(t\_real) & Real number greater than zero \\ \hline
-%			Samples to skipe & setSamplesToSkip & int(t\_integer) &  \\ \hline
-%			Save internal signals & setSaveInternalSignals & bool & True or False\\
-%			\hline
-%			Sampling period & setSamplingPeriod & double & Given by
-%			\textit{symbolPeriod}/\textit{samplesPerSymbol}\\
-%			\hline
+			IQ amplitudes & setIqAmplitudes & Vector of coordinate points in the I-Q
+			plane & \textbf{Example} for a 4-QAM mapping: \{ \{ 1.0, 1.0 \}, \{ -1.0,
+			1.0 \}, \{ -1.0, -1.0 \}, \{ 1.0, -1.0 \} \} \\ \hline
+			Local oscillator power (in dBm) & setLocalOscillatorOpticalPower\_dBm &
+			double(t\_real) & Any double greater than zero\\ \hline
+			Local oscillator phase & setLocalOscillatorPhase & double(t\_real) & Any
+			double greater than zero\\ \hline
+			Responsivity of the photodiodes & setResponsivity & double(t\_real)
+			&$\in$ [0,1] \\ \hline
+			Amplification (of the TI amplifier) & setAmplification & double(t\_real)
+			& Positive real number\\ \hline
+			Noise amplitude (introduced by the TI amplifier) & setNoiseAmplitude &
+			double(t\_real) & Real number greater than zero \\ \hline
+			Samples to skipe & setSamplesToSkip & int(t\_integer) &  \\ \hline
+			Save internal signals & setSaveInternalSignals & bool & True or False\\
+			\hline
+			Sampling period & setSamplingPeriod & double & Given by
+			\textit{symbolPeriod}/\textit{samplesPerSymbol}\\
+			\hline
 		\end{tabular}
 		\caption{List of input parameters of the block MQAM receiver}
 		\label{tab:homodyneRx_params}
 	\end{center}
 \end{table}
-%
-%\pagebreak
+
+\pagebreak
 
 \subsection*{Methods}
 
-%HomodyneReceiver(vector$<$Signal *$>$ \&inputSignal, vector$<$Signal *$>$
-%\&outputSignal) (\textbf{constructor})
-%\bigbreak
-%void setIqAmplitudes(vector$<$t\_iqValues$>$ iqAmplitudesValues)
-%\bigbreak
-%vector$<$t\_iqValues$>$ const getIqAmplitudes(void)
-%\bigbreak
-%void setLocalOscillatorSamplingPeriod(double sPeriod)
-%\bigbreak
-%void setLocalOscillatorOpticalPower(double opticalPower)
-%\bigbreak
-%void setLocalOscillatorOpticalPower\_dBm(double opticalPower\_dBm)
-%\bigbreak
-%void setLocalOscillatorPhase(double lOscillatorPhase)
-%\bigbreak
-%void setLocalOscillatorOpticalWavelength(double lOscillatorWavelength)
-%\bigbreak
-%void setSamplingPeriod(double sPeriod)
-%\bigbreak
-%void  setResponsivity(t\_real Responsivity)
-%\bigbreak
-%void setAmplification(t\_real Amplification)
-%\bigbreak
-%void setNoiseAmplitude(t\_real NoiseAmplitude)
-%\bigbreak
-%void setImpulseResponseTimeLength(int impResponseTimeLength)
-%\bigbreak
-%void setFilterType(PulseShaperFilter fType)
-%\bigbreak
-%void setRollOffFactor(double rOffFactor)
-%\bigbreak
-%void setClockPeriod(double per)
-%\bigbreak
-%void setSamplesToSkip(int sToSkip)
-%
+HomodyneReceiver(vector$<$Signal *$>$ \&inputSignal, vector$<$Signal *$>$
+\&outputSignal) (\textbf{constructor})
+\bigbreak
+void setIqAmplitudes(vector$<$t\_iqValues$>$ iqAmplitudesValues)
+\bigbreak
+vector$<$t\_iqValues$>$ const getIqAmplitudes(void)
+\bigbreak
+void setLocalOscillatorSamplingPeriod(double sPeriod)
+\bigbreak
+void setLocalOscillatorOpticalPower(double opticalPower)
+\bigbreak
+void setLocalOscillatorOpticalPower\_dBm(double opticalPower\_dBm)
+\bigbreak
+void setLocalOscillatorPhase(double lOscillatorPhase)
+\bigbreak
+void setLocalOscillatorOpticalWavelength(double lOscillatorWavelength)
+\bigbreak
+void setSamplingPeriod(double sPeriod)
+\bigbreak
+void  setResponsivity(t\_real Responsivity)
+\bigbreak
+void setAmplification(t\_real Amplification)
+\bigbreak
+void setNoiseAmplitude(t\_real NoiseAmplitude)
+\bigbreak
+void setImpulseResponseTimeLength(int impResponseTimeLength)
+\bigbreak
+void setFilterType(PulseShaperFilter fType)
+\bigbreak
+void setRollOffFactor(double rOffFactor)
+\bigbreak
+void setClockPeriod(double per)
+\bigbreak
+void setSamplesToSkip(int sToSkip)
+
 %\pagebreak
 
 \subsection*{Input Signals}
@@ -136,5 +137,22 @@ summarized.
 \subparagraph*{Type:} Binary signal
 
 \subsection*{Example}
+\subparagraph{Receiver sensitivity}
+The thermal noise imposes sensibility in the receiver block. Having a constant white noise source makes it so that signals below a given output power will not be properly detected, thus to being indistinguishable from noise.
+\subparagraph{Impact of the electrical amplifier}
+The electrical noise can have various origins, such as thermal noise. As the electrical noise increases the IES increases too. This means that the bandwidth decreases.
+\subparagraph{Impact of the electrical filter}
+As the figure \ref{IES filter} shows, the IES is not null. This happens because we multiply 2 raised-cosine. Meaning the output will not be a raised-cosine. Contrary to the transmission bolck. If the filter is optimal, the SNR is maximized and the noise is reduced.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.35]{./lib/m_qam_receiver/figures/S10_S11_eye.PNG}
+\caption{electrical filter IES}\label{IES filter}
+\end{figure}
+
+\subparagraph{Impact of the local-oscillator power (quantum noise)}
+The laser has low gain effect making quantum noise.
+\subparagraph{Bit-error rate}
+To maximize the quality, the BER needs to be lower.
 
 \subsection*{Sugestions for future improvement}
