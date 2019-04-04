@@ -4,11 +4,11 @@
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
       <bcf:key>output_encoding</bcf:key>
-      <bcf:value>ansinew</bcf:value>
+      <bcf:value>utf8</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>input_encoding</bcf:key>
-      <bcf:value>ansinew</bcf:value>
+      <bcf:value>utf8</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>debug</bcf:key>
@@ -2090,6 +2090,7 @@
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
+    <bcf:citekey order="1">NPTEL</bcf:citekey>
   </bcf:section>
   <!-- SECTION 4 -->
   <bcf:bibdata section="4">
@@ -2105,7 +2106,7 @@
     <bcf:datasource type="file" datatype="bibtex">./chapter/git/git_helper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="4">
-    <bcf:citekey order="1">NPTEL</bcf:citekey>
+    <bcf:citekey order="1">jeruchim06</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2124,7 +2125,8 @@
     <bcf:datasource type="file" datatype="bibtex">./chapter/git/git_helper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="5">
-    <bcf:citekey order="1">jeruchim06</bcf:citekey>
+    <bcf:citekey order="1">Rao2010a</bcf:citekey>
+    <bcf:citekey order="2">Chu2000</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2143,8 +2145,8 @@
     <bcf:datasource type="file" datatype="bibtex">./chapter/git/git_helper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="6">
-    <bcf:citekey order="1">Rao2010a</bcf:citekey>
-    <bcf:citekey order="2">Chu2000</bcf:citekey>
+    <bcf:citekey order="1">Smith1999</bcf:citekey>
+    <bcf:citekey order="1">Blahut1985</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2163,8 +2165,8 @@
     <bcf:datasource type="file" datatype="bibtex">./chapter/git/git_helper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="7">
-    <bcf:citekey order="1">Smith1999</bcf:citekey>
-    <bcf:citekey order="1">Blahut1985</bcf:citekey>
+    <bcf:citekey order="1">Kuo</bcf:citekey>
+    <bcf:citekey order="1">Rappaport2002</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2183,8 +2185,8 @@
     <bcf:datasource type="file" datatype="bibtex">./chapter/git/git_helper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="8">
-    <bcf:citekey order="1">Kuo</bcf:citekey>
-    <bcf:citekey order="1">Rappaport2002</bcf:citekey>
+    <bcf:citekey order="1">Marple</bcf:citekey>
+    <bcf:citekey order="2">Oppenheim1999</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2203,26 +2205,6 @@
     <bcf:datasource type="file" datatype="bibtex">./chapter/git/git_helper.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="9">
-    <bcf:citekey order="1">Marple</bcf:citekey>
-    <bcf:citekey order="2">Oppenheim1999</bcf:citekey>
-  </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 10 -->
-  <bcf:bibdata section="10">
-    <bcf:datasource type="file" datatype="bibtex">./chapter/simulator_structure/simulator_structure.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">./sdf/m_qam_system/m_qam_system.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">./lib/bit_error_rate/bit_error_rate.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">./lib/iir_filter/iir_filter.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">./lib/iq_modulator/iq_modulator.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">./algorithms/fft/fft.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">./algorithms/overlap_save/overlap_save.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">./algorithms/filter/filter.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">./algorithms/hilbert/hilbert.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">./chapter/git/git_helper.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="10">
     <bcf:citekey order="1">Chacon14</bcf:citekey>
     <bcf:citekey order="2">Lodato19</bcf:citekey>
     <bcf:citekey order="3">Lodato19</bcf:citekey>
@@ -2312,15 +2294,6 @@
                 labelalphanametemplatename="global">
   </bcf:datalist>
   <bcf:datalist section="9"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-  <bcf:datalist section="10"
                 name="none/global//global/global"
                 type="entry"
                 sortingtemplatename="none"

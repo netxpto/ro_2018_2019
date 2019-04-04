@@ -1,13 +1,15 @@
+ULTIMO
+
 \clearpage
 
 \section{IQ Modulator}
-\begin{refsection}
 \begin{tcolorbox}	
 	\begin{tabular}{p{2.75cm} p{0.2cm} p{10.5cm}} 	
 		\textbf{Header File}   &:& iq\_modulator.h \\
 		\textbf{Source File}   &:& iq\_modulator.cpp \\
 		\textbf{Source File}   &:& 20180130 \\
-		\textbf{Source File}   &:& 20180828 (Romil Patel)\\	
+		\textbf{Source File}   &:& 20180828 (Romil Patel)\\
+        \textbf{Source File}   &:& 20190403 (Lucas Leitao)\\	
 	\end{tabular}
 \end{tcolorbox}
 \subsection*{Version 20180130}
@@ -87,7 +89,7 @@ E_{out}(t)=E_{in}(t)\cdot e^{j\phi_{PM}(t)} = E_{in}(t)\cdot e^{j\frac{u(t)}{V_{
 \label{PM_TF}
 \end{equation*}
 Two phase modulators can be placed in parallel using an interferometric structure as shown in Figure \ref{MZM}. The incoming light is split into two branches, different phase shifts applies to each path, and then recombined.
-The output is a result of interference, ranging from constructive (the phase of the light in each branch is the same) to destructive (the phase in each branch differs by $\pi$). 
+The output is a result of interference, ranging from constructive (the phase of the light in each branch is the same) to destructive (the phase in each branch differs by $\pi$).
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\textwidth, height=5cm]{./lib/iq_modulator/figures/MZM.pdf}
@@ -99,7 +101,7 @@ The transfer function of the structure can be given as,
 \label{MZM_TF}
 \end{equation}
 Where, $\phi_{1}(t)=\frac{u_{1}(t)}{V_{\pi_{1}}} \pi$ and  $\phi_{2}(t)=\frac{u_{2}(t)}{V_{\pi_{2}}} \pi$. if the inputs are set to $u_{1}=u_{2}$ (push-push operation) then it provides the pure phase modulation at the output. Alternatively, if the inputs are set to $u_{1}=-u_{2}$ (push-pull operation) then it provides pure amplitude modulation at the output.\\
-The structure of the IQ MZM can be represented  shown in Figure \ref{IQ_Mach-Zehnder_Modulator} where the incoming source light spitted into two portions. The first portion will drive the MZM of the I-channel and other portion will drive MZM Q-channel data. In the Q-channel, before feeding it to the MZM, it passed though the phase modulator to provide a $\pi /2$ phase shift to the carrier. The output of the MZM combined to form the electrical field $E_{out}(t)$ \cite{NPTEL}. 
+The structure of the IQ MZM can be represented  shown in Figure \ref{IQ_Mach-Zehnder_Modulator} where the incoming source light spitted into two portions. The first portion will drive the MZM of the I-channel and other portion will drive MZM Q-channel data. In the Q-channel, before feeding it to the MZM, it passed though the phase modulator to provide a $\pi /2$ phase shift to the carrier. The output of the MZM combined to form the electrical field $E_{out}(t)$ \cite{NPTEL}.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\textwidth, height=8cm]{./lib/iq_modulator/figures/IQ_MZM.pdf}
@@ -107,7 +109,7 @@ The structure of the IQ MZM can be represented  shown in Figure \ref{IQ_Mach-Zeh
 \end{figure}
 The transfer function of the IQ MZM can be written as,
 \begin{equation}
-E_{out}(t)=\frac{1}{2}{E_{in}(t)} \bigg[cos\big(\dfrac{\pi U_{I}(t)}{2 V_{\pi}}\big) + j \cdot cos\bigg(\dfrac{\pi U_{Q}(t)}{2 V_{\pi}}\bigg) \bigg] 
+E_{out}(t)=\frac{1}{2}{E_{in}(t)} \bigg[cos\big(\dfrac{\pi U_{I}(t)}{2 V_{\pi}}\big) + j \cdot cos\bigg(\dfrac{\pi U_{Q}(t)}{2 V_{\pi}}\bigg) \bigg]
 \label{IQ_MZM_TF}\
 \end{equation}
 The black  box model of the IQ MZM in the simulator can be depicted as,
@@ -117,9 +119,105 @@ The black  box model of the IQ MZM in the simulator can be depicted as,
  	\label{Black_Box}\caption{Simulation model of the IQ Mach-Zehnder Modulator}
  \end{figure}
 
-% Bibliography
-\clearpage
-\printbibliography[heading=subbibliography]
-\end{refsection}
-\addcontentsline{toc}{subsection}{Bibliography}
-\cleardoublepage
+
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \subsection*{\textbf{Version 20190403}}
+The IQ-Modulator block is responsible to generate the transmission system output optical signal.\\
+It has three inputs and one output. Port number 1 and 2 accept the real and imaginary data respectively and port 3 accepts the local oscillator as an input to the IQ modulator. This model serves as an ideal IQ modulator without noise and introduction of nonlinearity.
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.75\textwidth, height=6cm]{./lib/iq_modulator/figures/IQ_modulator_block.pdf}
+%	\label{IQ_modulator_block}\caption{IQ Modulator block}
+%\end{figure}
+\subsection*{Input Signals:}
+\textbf{Number}: 2\\
+\textbf{Type}: Real and continuous signals ('I' and 'Q' Pulse-Shaper output)\\
+
+\textbf{Number}: 1\\
+\textbf{Type}: Optical signal (Local Oscillator output)\\
+\subsection*{Output Signals:}
+\textbf{Number}: 1\\
+\textbf{Type}: IQ-modulated optical signal (with single or double polarization)
+\subsection*{Input Parameters:}
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|c|cccc}
+		\cline{1-4}
+		\textbf{Parameter} & \textbf{Type} & \textbf{Values} &   \textbf{Default}& \\ \cline{1-4}
+		outputOpticalPower & double & any & $1e-3$ \\ \cline{1-4}
+		outputOpticalWavelength & double & any & $1550e-9$ \\ \cline{1-4}
+		outputOpticalFrequency & double & any & speed\_of\_light/outputOpticalWavelength \\ \cline{1-4}
+	\end{tabular}
+	\caption{Binary source input parameters}
+	\label{table:iqmod_in_par}
+\end{table}
+
+\subsection*{Methods}
+\begin{enumerate}
+\item Block Declaration and Initialization
+             \begin{itemize}
+                 \item IqModulator(initializer\_list$<$Signal *$>$ \&inputSig, initializer\_list$<$Signal *$>$ \&outputSig)
+                 \item void initialize(void)
+	             \item bool runBlock(void)
+             \end{itemize}
+\item Functions to set parameters
+             \begin{itemize}
+                \item void setOutputOpticalPower(double outOpticalPower)
+                \item void setOutputOpticalPower\_dBm(double outOpticalPower\_dBm)
+                \item void setOutputOpticalWavelength(double outOpticalWavelength)
+                \item void setOutputOpticalFrequency(double outOpticalFrequency)
+             \end{itemize}
+\end{enumerate}
+
+\subsection*{Functional Description:}
+
+In this block the 'I' and 'Q' signals are modulated (amplitude, phase or both) and the 'Q' signal is also $\pi/2$ shifted.
+To perform these modulations (in the optical domain) we can benefit from the fact that the refractive index on certain crystals depends on the strength of the local eletrical field.
+Thus, if a voltage is applied to the crystal, its possible to have a controllable phase shift of the optical signal.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth, height=5cm]{./lib/iq_modulator/figures/PM.pdf}
+	\label{Phase_Modulator}\caption{Phase Modulator}
+\end{figure}
+The Mach-Zehnder modulator (MZM) applies this same principle to perform signal modulation.
+In the MZM, the laser beam is splitted into two branches. In each branch, there is one phase shift crystal. When the signals are recombined, they will have a phase difference which related to the voltage difference between the two optical paths.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth, height=5cm]{./lib/iq_modulator/figures/MZM.pdf}
+	\label{MZM}\caption{Mach-Zehnder Modulator}
+\end{figure}
+Considering that $V_{\pi}$ is the voltage required to produce a $\pi$ phase shift inside the crystal, the phase difference in the upper/lower branches is going to be: $\phi_{1}(t)=\frac{u_{1}(t)}{V_{\pi_{1}}} \pi$ and  $\phi_{2}(t)=\frac{u_{2}(t)}{V_{\pi_{2}}} \pi$, respectively.
+Also considering that the input energy is also splitted into the two branches, the transfer function of the MZM is:
+\begin{equation}
+\dfrac{E_{out}(t)}{E_{in}(t)} = \frac{1}{2}\cdot(e^{j\phi_{1}(t)}+e^{j\phi_{2}(t)})
+\label{MZM_TF}
+\end{equation}
+The IQ Modulator will have a MZM for the I-channel and a MZM plus a $\pi/2$ phase shifter in the Q-channel.
+The MZM modulator in each branch, will have a push-pull configuration (which consist of symetric voltages applied to each crystal plates). With this configuration, both the MZM modulators will purely produce an amplitude modulation.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth, height=8cm]{./lib/iq_modulator/figures/IQ_MZM.pdf}
+	\label{IQ_Mach-Zehnder_Modulator}\caption{IQ Mach-Zehnder Modulator}
+\end{figure}
+Considering, as an example, that the MQAM\_Mapper is set to produce the I and Q input signals with only  two possible values ('1' or '0'), then each branch will modulate only two amplitudes. Thus, the optical output signal constellation of the system will be a QPSK:
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth, height=8cm]{./lib/iq_modulator/figures/qpsk_constellation.png}
+	\label{Optical Output Signal Constellation}\caption{Optical Output Signal Constellation}
+\end{figure}
+With more possible I/Q amplitudes, the more complex will be the constellation.
+\subsection*{Examples:}
+Since this block is a piece of a bigger block ("MQAM Transmitter") and since, there the non-linearities and noise are not considerer in the simulation, there are no relevant examples.\\
+However, all the theory in the "Functional Description" Section depicts what happens inside this block.
+
+\subsection*{Open Issues:}
+none
+\subsection*{Future Improvements:}
+\begin{itemize}
+\item Add to the vlock noise/non-linearities models (if possible to model non-linearities)
+\item Include the PhotonStreamXY (netxpto\_20180815.h) as an option to put in the IqModulator Constructor (m\_qam\_transmitter\_20180815(see line 106))
+\end{itemize}
+
