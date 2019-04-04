@@ -12,8 +12,13 @@
 // ################################### System Input Parameters #########################################
 // #####################################################################################################
 
+<<<<<<< HEAD
 int constellationCardinality{ 4 };	
 double symbolPeriod_s{ 2e-11 };	
+=======
+int constellationCardinality{ 4 };	//numb of constellation point 2^n bits per symbol
+double symbolPeriod_s{ 2e-11 };	 //2e-11
+>>>>>>> master
 int samplesPerSymbol{ 8 };
 double txLocalOscillatorPower_dBm{ 0 };
 pulse_shapper_filter_type txPulseShapperType{ pulse_shapper_filter_type::RaisedCosine };
@@ -67,6 +72,10 @@ int main() {
 	MQamTransmitter_.setImpulseResponseTimeLength_symbolPeriods(txPulseShaperLength_symbolPeriods);
 	MQamTransmitter_.setFilterType(txPulseShapperType);
 	MQamTransmitter_.setRollOffFactor(raisedCosineRollOffFactor);
+<<<<<<< HEAD
+=======
+	//MQamTransmitter_.setM(constellationCardinality);
+>>>>>>> master
 
 	Laser RxLocalOscillator_{ {},{ &RxLocalOscillatorOut } };
 	RxLocalOscillator_.setSymbolPeriod(symbolPeriod_s);

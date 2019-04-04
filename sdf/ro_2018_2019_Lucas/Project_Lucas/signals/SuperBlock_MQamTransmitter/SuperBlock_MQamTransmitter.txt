@@ -1,14 +1,22 @@
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## MQamMapper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:57
+>>>>>>> master
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=512
 Output Signals: 
 MQamMapper|S1_MQamMapperOut_1|space=512
 MQamMapper|S2_MQamMapperOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 1 milliseconds
+=======
+Elapsed time: 0 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=0
@@ -19,13 +27,21 @@ MQamMapper|S2_MQamMapperOut_2|space=255
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:57
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=257
 Output Signals: 
 DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 13 milliseconds
+=======
+Elapsed time: 3 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=193
@@ -35,13 +51,21 @@ DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:57
+>>>>>>> master
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
 Output Signals: 
 PulseShaper|S5_PulseShaperOut_1|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 24 milliseconds
+=======
+Elapsed time: 18 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
@@ -51,13 +75,21 @@ PulseShaper|S5_PulseShaperOut_1|space=0
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:57
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=257
 Output Signals: 
 DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 5 milliseconds
+=======
+Elapsed time: 8 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=193
@@ -67,13 +99,21 @@ DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:57
+>>>>>>> master
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
 Output Signals: 
 PulseShaper|S6_PulseShaperOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 15 milliseconds
+=======
+Elapsed time: 23 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
@@ -83,7 +123,11 @@ PulseShaper|S6_PulseShaperOut_2|space=0
 
 -----------------------------------------------------------------
 ########## IqModulator ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:57
+>>>>>>> master
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=512
 IqModulator|S6_PulseShaperOut_2|ready=512
@@ -91,7 +135,11 @@ IqModulator|S7_TxLocalOscillator_In|ready=512
 Output Signals: 
 IqModulator|S8_OpticalSignal_Out|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 13 milliseconds
+=======
+Elapsed time: 33 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=0
@@ -104,14 +152,22 @@ IqModulator|S8_OpticalSignal_Out|space=0
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## MQamMapper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=70
 Output Signals: 
 MQamMapper|S1_MQamMapperOut_1|space=319
 MQamMapper|S2_MQamMapperOut_2|space=319
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 1 milliseconds
+=======
+Elapsed time: 0 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=0
@@ -122,13 +178,21 @@ MQamMapper|S2_MQamMapperOut_2|space=284
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=228
 Output Signals: 
 DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 10 milliseconds
+=======
+Elapsed time: 13 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=164
@@ -138,13 +202,21 @@ DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
 Output Signals: 
 PulseShaper|S5_PulseShaperOut_1|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 17 milliseconds
+=======
+Elapsed time: 16 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
@@ -154,13 +226,21 @@ PulseShaper|S5_PulseShaperOut_1|space=0
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=228
 Output Signals: 
 DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 8 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=164
@@ -170,13 +250,21 @@ DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
 Output Signals: 
 PulseShaper|S6_PulseShaperOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 17 milliseconds
+=======
+Elapsed time: 16 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
@@ -186,7 +274,11 @@ PulseShaper|S6_PulseShaperOut_2|space=0
 
 -----------------------------------------------------------------
 ########## IqModulator ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=512
 IqModulator|S6_PulseShaperOut_2|ready=512
@@ -194,7 +286,11 @@ IqModulator|S7_TxLocalOscillator_In|ready=512
 Output Signals: 
 IqModulator|S8_OpticalSignal_Out|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 8 milliseconds
+=======
+Elapsed time: 20 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=0
@@ -207,14 +303,22 @@ IqModulator|S8_OpticalSignal_Out|space=0
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## MQamMapper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=128
 Output Signals: 
 MQamMapper|S1_MQamMapperOut_1|space=348
 MQamMapper|S2_MQamMapperOut_2|space=348
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 1 milliseconds
+=======
+Elapsed time: 0 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=0
@@ -225,13 +329,21 @@ MQamMapper|S2_MQamMapperOut_2|space=284
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=228
 Output Signals: 
 DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 7 milliseconds
+=======
+Elapsed time: 11 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=164
@@ -241,13 +353,21 @@ DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
 Output Signals: 
 PulseShaper|S5_PulseShaperOut_1|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 16 milliseconds
+=======
+Elapsed time: 23 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
@@ -257,13 +377,21 @@ PulseShaper|S5_PulseShaperOut_1|space=0
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=228
 Output Signals: 
 DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 9 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=164
@@ -273,116 +401,21 @@ DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
 Output Signals: 
 PulseShaper|S6_PulseShaperOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 18 milliseconds
------------------------------------------------------------------
-Input Signals: 
-PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
-Output Signals: 
-PulseShaper|S6_PulseShaperOut_2|space=0
-
-
------------------------------------------------------------------
-########## IqModulator ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-IqModulator|S5_PulseShaperOut_1|ready=512
-IqModulator|S6_PulseShaperOut_2|ready=512
-IqModulator|S7_TxLocalOscillator_In|ready=512
-Output Signals: 
-IqModulator|S8_OpticalSignal_Out|space=512
------------------------------------------------------------------
-Elapsed time: 6 milliseconds
------------------------------------------------------------------
-Input Signals: 
-IqModulator|S5_PulseShaperOut_1|ready=0
-IqModulator|S6_PulseShaperOut_2|ready=0
-IqModulator|S7_TxLocalOscillator_In|ready=0
-Output Signals: 
-IqModulator|S8_OpticalSignal_Out|space=0
-
-
-The following input parameters were loaded from the configuration file:
------------------------------------------------------------------
-########## MQamMapper ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-MQamMapper|S0_BinaryData_In|ready=128
-Output Signals: 
-MQamMapper|S1_MQamMapperOut_1|space=348
-MQamMapper|S2_MQamMapperOut_2|space=348
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-MQamMapper|S0_BinaryData_In|ready=0
-Output Signals: 
-MQamMapper|S1_MQamMapperOut_1|space=284
-MQamMapper|S2_MQamMapperOut_2|space=284
-
-
------------------------------------------------------------------
-########## DiscreteToContinuousTime ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=228
-Output Signals: 
-DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
------------------------------------------------------------------
-Elapsed time: 7 milliseconds
------------------------------------------------------------------
-Input Signals: 
-DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=164
-Output Signals: 
-DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
-
-
------------------------------------------------------------------
-########## PulseShaper ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
-Output Signals: 
-PulseShaper|S5_PulseShaperOut_1|space=512
------------------------------------------------------------------
-Elapsed time: 16 milliseconds
------------------------------------------------------------------
-Input Signals: 
-PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
-Output Signals: 
-PulseShaper|S5_PulseShaperOut_1|space=0
-
-
------------------------------------------------------------------
-########## DiscreteToContinuousTime ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=228
-Output Signals: 
-DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
------------------------------------------------------------------
+=======
 Elapsed time: 12 milliseconds
------------------------------------------------------------------
-Input Signals: 
-DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=164
-Output Signals: 
-DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
-
-
------------------------------------------------------------------
-########## PulseShaper ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
-Output Signals: 
-PulseShaper|S6_PulseShaperOut_2|space=512
------------------------------------------------------------------
-Elapsed time: 18 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
@@ -392,7 +425,11 @@ PulseShaper|S6_PulseShaperOut_2|space=0
 
 -----------------------------------------------------------------
 ########## IqModulator ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=512
 IqModulator|S6_PulseShaperOut_2|ready=512
@@ -400,7 +437,11 @@ IqModulator|S7_TxLocalOscillator_In|ready=512
 Output Signals: 
 IqModulator|S8_OpticalSignal_Out|space=512
 -----------------------------------------------------------------
-Elapsed time: 7 milliseconds
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 11 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=0
@@ -413,7 +454,11 @@ IqModulator|S8_OpticalSignal_Out|space=0
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## MQamMapper ##########
-Block start time: 2019-03-13 12:23:48
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=128
 Output Signals: 
@@ -431,13 +476,17 @@ MQamMapper|S2_MQamMapperOut_2|space=284
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
-Block start time: 2019-03-13 12:23:48
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=228
 Output Signals: 
 DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
 -----------------------------------------------------------------
-Elapsed time: 9 milliseconds
+Elapsed time: 7 milliseconds
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=164
@@ -447,7 +496,158 @@ DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 16 milliseconds
+=======
+Elapsed time: 13 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
+Output Signals: 
+PulseShaper|S5_PulseShaperOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=228
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 12 milliseconds
+=======
+Elapsed time: 6 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=164
+Output Signals: 
+DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 18 milliseconds
+=======
+Elapsed time: 21 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
+Output Signals: 
+PulseShaper|S6_PulseShaperOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## IqModulator ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=512
+IqModulator|S6_PulseShaperOut_2|ready=512
+IqModulator|S7_TxLocalOscillator_In|ready=512
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 23 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+IqModulator|S5_PulseShaperOut_1|ready=0
+IqModulator|S6_PulseShaperOut_2|ready=0
+IqModulator|S7_TxLocalOscillator_In|ready=0
+Output Signals: 
+IqModulator|S8_OpticalSignal_Out|space=0
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## MQamMapper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=128
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=348
+MQamMapper|S2_MQamMapperOut_2|space=348
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+MQamMapper|S0_BinaryData_In|ready=0
+Output Signals: 
+MQamMapper|S1_MQamMapperOut_1|space=284
+MQamMapper|S2_MQamMapperOut_2|space=284
+
+
+-----------------------------------------------------------------
+########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=228
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 9 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=164
+Output Signals: 
+DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
 Output Signals: 
@@ -463,13 +663,21 @@ PulseShaper|S5_PulseShaperOut_1|space=0
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=228
 Output Signals: 
 DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 8 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=164
@@ -479,13 +687,21 @@ DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
 Output Signals: 
 PulseShaper|S6_PulseShaperOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 12 milliseconds
+=======
+Elapsed time: 11 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
@@ -495,7 +711,11 @@ PulseShaper|S6_PulseShaperOut_2|space=0
 
 -----------------------------------------------------------------
 ########## IqModulator ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=512
 IqModulator|S6_PulseShaperOut_2|ready=512
@@ -503,7 +723,11 @@ IqModulator|S7_TxLocalOscillator_In|ready=512
 Output Signals: 
 IqModulator|S8_OpticalSignal_Out|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 7 milliseconds
+=======
+Elapsed time: 11 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=0
@@ -516,7 +740,11 @@ IqModulator|S8_OpticalSignal_Out|space=0
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## MQamMapper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=34
 Output Signals: 
@@ -534,13 +762,21 @@ MQamMapper|S2_MQamMapperOut_2|space=331
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=181
 Output Signals: 
 DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 8 milliseconds
+=======
+Elapsed time: 6 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=117
@@ -550,13 +786,21 @@ DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
 Output Signals: 
 PulseShaper|S5_PulseShaperOut_1|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 13 milliseconds
+=======
+Elapsed time: 12 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
@@ -566,13 +810,21 @@ PulseShaper|S5_PulseShaperOut_1|space=0
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=181
 Output Signals: 
 DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 9 milliseconds
+=======
+Elapsed time: 6 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=117
@@ -582,13 +834,21 @@ DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
 Output Signals: 
 PulseShaper|S6_PulseShaperOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 14 milliseconds
+=======
+Elapsed time: 11 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
@@ -598,7 +858,11 @@ PulseShaper|S6_PulseShaperOut_2|space=0
 
 -----------------------------------------------------------------
 ########## IqModulator ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=512
 IqModulator|S6_PulseShaperOut_2|ready=512
@@ -606,7 +870,11 @@ IqModulator|S7_TxLocalOscillator_In|ready=512
 Output Signals: 
 IqModulator|S8_OpticalSignal_Out|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 7 milliseconds
+=======
+Elapsed time: 14 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=0
@@ -619,7 +887,11 @@ IqModulator|S8_OpticalSignal_Out|space=0
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## MQamMapper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=0
 Output Signals: 
@@ -637,13 +909,21 @@ MQamMapper|S2_MQamMapperOut_2|space=395
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=117
 Output Signals: 
 DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 8 milliseconds
+=======
+Elapsed time: 6 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=53
@@ -653,13 +933,21 @@ DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=0
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=512
 Output Signals: 
 PulseShaper|S5_PulseShaperOut_1|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 15 milliseconds
+=======
+Elapsed time: 11 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
@@ -669,13 +957,21 @@ PulseShaper|S5_PulseShaperOut_1|space=0
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=117
 Output Signals: 
 DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 12 milliseconds
+=======
+Elapsed time: 6 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=53
@@ -685,13 +981,21 @@ DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=0
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=512
 Output Signals: 
 PulseShaper|S6_PulseShaperOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 13 milliseconds
+=======
+Elapsed time: 11 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
@@ -701,7 +1005,11 @@ PulseShaper|S6_PulseShaperOut_2|space=0
 
 -----------------------------------------------------------------
 ########## IqModulator ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=512
 IqModulator|S6_PulseShaperOut_2|ready=512
@@ -709,7 +1017,11 @@ IqModulator|S7_TxLocalOscillator_In|ready=512
 Output Signals: 
 IqModulator|S8_OpticalSignal_Out|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 6 milliseconds
+=======
+Elapsed time: 10 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=0
@@ -722,7 +1034,11 @@ IqModulator|S8_OpticalSignal_Out|space=0
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## MQamMapper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=0
 Output Signals: 
@@ -740,7 +1056,11 @@ MQamMapper|S2_MQamMapperOut_2|space=459
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=53
 Output Signals: 
@@ -756,13 +1076,21 @@ DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=88
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=424
 Output Signals: 
 PulseShaper|S5_PulseShaperOut_1|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 6 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
@@ -772,13 +1100,21 @@ PulseShaper|S5_PulseShaperOut_1|space=88
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=53
 Output Signals: 
 DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 0 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=0
@@ -788,13 +1124,21 @@ DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=88
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=424
 Output Signals: 
 PulseShaper|S6_PulseShaperOut_2|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 7 milliseconds
+=======
+Elapsed time: 6 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
@@ -804,7 +1148,11 @@ PulseShaper|S6_PulseShaperOut_2|space=88
 
 -----------------------------------------------------------------
 ########## IqModulator ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=424
 IqModulator|S6_PulseShaperOut_2|ready=424
@@ -825,7 +1173,11 @@ IqModulator|S8_OpticalSignal_Out|space=88
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## MQamMapper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=0
 Output Signals: 
@@ -843,7 +1195,11 @@ MQamMapper|S2_MQamMapperOut_2|space=512
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=0
 Output Signals: 
@@ -859,7 +1215,11 @@ DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
 Output Signals: 
@@ -875,7 +1235,11 @@ PulseShaper|S5_PulseShaperOut_1|space=512
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=0
 Output Signals: 
@@ -891,7 +1255,11 @@ DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
 Output Signals: 
@@ -907,7 +1275,11 @@ PulseShaper|S6_PulseShaperOut_2|space=512
 
 -----------------------------------------------------------------
 ########## IqModulator ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=0
 IqModulator|S6_PulseShaperOut_2|ready=0
@@ -928,7 +1300,11 @@ IqModulator|S8_OpticalSignal_Out|space=512
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## MQamMapper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=0
 Output Signals: 
@@ -946,7 +1322,11 @@ MQamMapper|S2_MQamMapperOut_2|space=512
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=0
 Output Signals: 
@@ -962,7 +1342,11 @@ DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
 Output Signals: 
@@ -978,7 +1362,11 @@ PulseShaper|S5_PulseShaperOut_1|space=512
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=0
 Output Signals: 
@@ -994,7 +1382,11 @@ DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
 Output Signals: 
@@ -1010,7 +1402,11 @@ PulseShaper|S6_PulseShaperOut_2|space=512
 
 -----------------------------------------------------------------
 ########## IqModulator ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=0
 IqModulator|S6_PulseShaperOut_2|ready=0
@@ -1031,7 +1427,11 @@ IqModulator|S8_OpticalSignal_Out|space=512
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## MQamMapper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 MQamMapper|S0_BinaryData_In|ready=0
 Output Signals: 
@@ -1049,7 +1449,11 @@ MQamMapper|S2_MQamMapperOut_2|space=512
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S1_MQamMapperOut_1|ready=0
 Output Signals: 
@@ -1065,7 +1469,11 @@ DiscreteToContinuousTime|S3_DiscreteToContinuousTimeOut_1|space=512
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 PulseShaper|S3_DiscreteToContinuousTimeOut_1|ready=0
 Output Signals: 
@@ -1081,7 +1489,11 @@ PulseShaper|S5_PulseShaperOut_1|space=512
 
 -----------------------------------------------------------------
 ########## DiscreteToContinuousTime ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 DiscreteToContinuousTime|S2_MQamMapperOut_2|ready=0
 Output Signals: 
@@ -1097,7 +1509,11 @@ DiscreteToContinuousTime|S4_DiscreteToContinuousTimeOut_2|space=512
 
 -----------------------------------------------------------------
 ########## PulseShaper ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 PulseShaper|S4_DiscreteToContinuousTimeOut_2|ready=0
 Output Signals: 
@@ -1113,7 +1529,11 @@ PulseShaper|S6_PulseShaperOut_2|space=512
 
 -----------------------------------------------------------------
 ########## IqModulator ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 IqModulator|S5_PulseShaperOut_1|ready=0
 IqModulator|S6_PulseShaperOut_2|ready=0

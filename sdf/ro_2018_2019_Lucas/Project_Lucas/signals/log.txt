@@ -1,13 +1,21 @@
 The following input parameters were loaded from the configuration file:
 -----------------------------------------------------------------
 ########## BinarySource ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:57
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 BinarySource|S0_BinarySourceOut_0|space=512
 BinarySource|S1_BinarySourceOut_0|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 20 milliseconds
+=======
+Elapsed time: 10 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -17,12 +25,20 @@ BinarySource|S1_BinarySourceOut_0|space=0
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:57
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S2_TxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 17 milliseconds
+=======
+Elapsed time: 10 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -31,14 +47,22 @@ Laser|S2_TxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamTransmitter ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:57
+>>>>>>> master
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=512
 MQamTransmitter|S2_TxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamTransmitter|S3_MQamTransmitterOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 103 milliseconds
+=======
+Elapsed time: 134 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
@@ -49,12 +73,20 @@ MQamTransmitter|S3_MQamTransmitterOut|space=0
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:57
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S4_RxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 12 milliseconds
+=======
+Elapsed time: 16 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -63,14 +95,22 @@ Laser|S4_RxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamReceiver ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:57
+>>>>>>> master
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=512
 MQamReceiver|S4_RxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamReceiver|S5_MQamReceiverOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 470 milliseconds
+=======
+Elapsed time: 805 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
@@ -81,14 +121,22 @@ MQamReceiver|S5_MQamReceiverOut|space=442
 
 -----------------------------------------------------------------
 ########## BitErrorRate ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=70
 BitErrorRate|S0_BinarySourceOut_0|ready=512
 Output Signals: 
 BitErrorRate|S6_BitErrorRateOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 2 milliseconds
+=======
+Elapsed time: 0 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=0
@@ -99,12 +147,20 @@ BitErrorRate|S6_BitErrorRateOut|space=442
 
 -----------------------------------------------------------------
 ########## Sink ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=70
 Output Signals: 
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 1 milliseconds
+=======
+Elapsed time: 0 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=0
@@ -113,7 +169,11 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 BinarySource|S0_BinarySourceOut_0|space=70
@@ -129,12 +189,20 @@ BinarySource|S1_BinarySourceOut_0|space=442
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S2_TxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 24 milliseconds
+=======
+Elapsed time: 11 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -143,14 +211,22 @@ Laser|S2_TxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamTransmitter ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=70
 MQamTransmitter|S2_TxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamTransmitter|S3_MQamTransmitterOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 90 milliseconds
+=======
+Elapsed time: 99 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
@@ -161,12 +237,20 @@ MQamTransmitter|S3_MQamTransmitterOut|space=0
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S4_RxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 11 milliseconds
+=======
+Elapsed time: 8 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -175,14 +259,22 @@ Laser|S4_RxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamReceiver ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=512
 MQamReceiver|S4_RxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamReceiver|S5_MQamReceiverOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 433 milliseconds
+=======
+Elapsed time: 794 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
@@ -193,14 +285,22 @@ MQamReceiver|S5_MQamReceiverOut|space=384
 
 -----------------------------------------------------------------
 ########## BitErrorRate ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=128
 BitErrorRate|S0_BinarySourceOut_0|ready=512
 Output Signals: 
 BitErrorRate|S6_BitErrorRateOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 0 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=0
@@ -211,7 +311,11 @@ BitErrorRate|S6_BitErrorRateOut|space=384
 
 -----------------------------------------------------------------
 ########## Sink ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=128
 Output Signals: 
@@ -225,125 +329,21 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 BinarySource|S0_BinarySourceOut_0|space=128
 BinarySource|S1_BinarySourceOut_0|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 3 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-BinarySource|S0_BinarySourceOut_0|space=0
-BinarySource|S1_BinarySourceOut_0|space=384
-
-
------------------------------------------------------------------
-########## Laser ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-Output Signals: 
-Laser|S2_TxLocalOscillatorOut|space=512
------------------------------------------------------------------
-Elapsed time: 10 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Laser|S2_TxLocalOscillatorOut|space=0
-
-
------------------------------------------------------------------
-########## MQamTransmitter ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-MQamTransmitter|S1_BinarySourceOut_0|ready=128
-MQamTransmitter|S2_TxLocalOscillatorOut|ready=512
-Output Signals: 
-MQamTransmitter|S3_MQamTransmitterOut|space=512
------------------------------------------------------------------
-Elapsed time: 79 milliseconds
------------------------------------------------------------------
-Input Signals: 
-MQamTransmitter|S1_BinarySourceOut_0|ready=0
-MQamTransmitter|S2_TxLocalOscillatorOut|ready=0
-Output Signals: 
-MQamTransmitter|S3_MQamTransmitterOut|space=0
-
-
------------------------------------------------------------------
-########## Laser ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-Output Signals: 
-Laser|S4_RxLocalOscillatorOut|space=512
------------------------------------------------------------------
-Elapsed time: 7 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Output Signals: 
-Laser|S4_RxLocalOscillatorOut|space=0
-
-
------------------------------------------------------------------
-########## MQamReceiver ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-MQamReceiver|S3_MQamTransmitterOut|ready=512
-MQamReceiver|S4_RxLocalOscillatorOut|ready=512
-Output Signals: 
-MQamReceiver|S5_MQamReceiverOut|space=512
------------------------------------------------------------------
-Elapsed time: 294 milliseconds
------------------------------------------------------------------
-Input Signals: 
-MQamReceiver|S3_MQamTransmitterOut|ready=0
-MQamReceiver|S4_RxLocalOscillatorOut|ready=0
-Output Signals: 
-MQamReceiver|S5_MQamReceiverOut|space=384
-
-
------------------------------------------------------------------
-########## BitErrorRate ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-BitErrorRate|S5_MQamReceiverOut|ready=128
-BitErrorRate|S0_BinarySourceOut_0|ready=512
-Output Signals: 
-BitErrorRate|S6_BitErrorRateOut|space=512
------------------------------------------------------------------
-Elapsed time: 0 milliseconds
------------------------------------------------------------------
-Input Signals: 
-BitErrorRate|S5_MQamReceiverOut|ready=0
-BitErrorRate|S0_BinarySourceOut_0|ready=384
-Output Signals: 
-BitErrorRate|S6_BitErrorRateOut|space=384
-
-
------------------------------------------------------------------
-########## Sink ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-Sink|S6_BitErrorRateOut|ready=128
-Output Signals: 
------------------------------------------------------------------
+=======
 Elapsed time: 2 milliseconds
------------------------------------------------------------------
-Input Signals: 
-Sink|S6_BitErrorRateOut|ready=0
-Output Signals: 
-
-
------------------------------------------------------------------
-########## BinarySource ##########
-Block start time: 2019-03-13 12:23:47
-Input Signals: 
-Output Signals: 
-BinarySource|S0_BinarySourceOut_0|space=128
-BinarySource|S1_BinarySourceOut_0|space=512
------------------------------------------------------------------
-Elapsed time: 6 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -353,7 +353,11 @@ BinarySource|S1_BinarySourceOut_0|space=384
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S2_TxLocalOscillatorOut|space=512
@@ -367,14 +371,22 @@ Laser|S2_TxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamTransmitter ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=128
 MQamTransmitter|S2_TxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamTransmitter|S3_MQamTransmitterOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 82 milliseconds
+<<<<<<< HEAD
+Elapsed time: 79 milliseconds
+=======
+Elapsed time: 91 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
@@ -385,12 +397,20 @@ MQamTransmitter|S3_MQamTransmitterOut|space=0
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S4_RxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 16 milliseconds
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 6 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -399,14 +419,22 @@ Laser|S4_RxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamReceiver ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=512
 MQamReceiver|S4_RxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamReceiver|S5_MQamReceiverOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 315 milliseconds
+<<<<<<< HEAD
+Elapsed time: 294 milliseconds
+=======
+Elapsed time: 575 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
@@ -417,7 +445,11 @@ MQamReceiver|S5_MQamReceiverOut|space=384
 
 -----------------------------------------------------------------
 ########## BitErrorRate ##########
-Block start time: 2019-03-13 12:23:48
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=128
 BitErrorRate|S0_BinarySourceOut_0|ready=512
@@ -435,12 +467,20 @@ BitErrorRate|S6_BitErrorRateOut|space=384
 
 -----------------------------------------------------------------
 ########## Sink ##########
-Block start time: 2019-03-13 12:23:48
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=128
 Output Signals: 
 -----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 2 milliseconds
+=======
 Elapsed time: 1 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=0
@@ -449,13 +489,21 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
-Block start time: 2019-03-13 12:23:48
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 BinarySource|S0_BinarySourceOut_0|space=128
 BinarySource|S1_BinarySourceOut_0|space=512
 -----------------------------------------------------------------
-Elapsed time: 7 milliseconds
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -465,12 +513,20 @@ BinarySource|S1_BinarySourceOut_0|space=384
 
 -----------------------------------------------------------------
 ########## Laser ##########
-Block start time: 2019-03-13 12:23:48
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S2_TxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 12 milliseconds
+<<<<<<< HEAD
+Elapsed time: 10 milliseconds
+=======
+Elapsed time: 11 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -479,14 +535,22 @@ Laser|S2_TxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamTransmitter ##########
-Block start time: 2019-03-13 12:23:48
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=128
 MQamTransmitter|S2_TxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamTransmitter|S3_MQamTransmitterOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 72 milliseconds
+<<<<<<< HEAD
+Elapsed time: 82 milliseconds
+=======
+Elapsed time: 99 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
@@ -497,12 +561,20 @@ MQamTransmitter|S3_MQamTransmitterOut|space=0
 
 -----------------------------------------------------------------
 ########## Laser ##########
-Block start time: 2019-03-13 12:23:48
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S4_RxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 7 milliseconds
+<<<<<<< HEAD
+Elapsed time: 16 milliseconds
+=======
+Elapsed time: 10 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -511,14 +583,22 @@ Laser|S4_RxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamReceiver ##########
-Block start time: 2019-03-13 12:23:48
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=512
 MQamReceiver|S4_RxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamReceiver|S5_MQamReceiverOut|space=512
 -----------------------------------------------------------------
-Elapsed time: 302 milliseconds
+<<<<<<< HEAD
+Elapsed time: 315 milliseconds
+=======
+Elapsed time: 582 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
@@ -529,7 +609,11 @@ MQamReceiver|S5_MQamReceiverOut|space=384
 
 -----------------------------------------------------------------
 ########## BitErrorRate ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=128
 BitErrorRate|S0_BinarySourceOut_0|ready=512
@@ -547,7 +631,171 @@ BitErrorRate|S6_BitErrorRateOut|space=384
 
 -----------------------------------------------------------------
 ########## Sink ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Sink|S6_BitErrorRateOut|ready=128
+Output Signals: 
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 1 milliseconds
+=======
+Elapsed time: 205 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Sink|S6_BitErrorRateOut|ready=0
+Output Signals: 
+
+
+-----------------------------------------------------------------
+########## BinarySource ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+BinarySource|S0_BinarySourceOut_0|space=128
+BinarySource|S1_BinarySourceOut_0|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 6 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+BinarySource|S0_BinarySourceOut_0|space=0
+BinarySource|S1_BinarySourceOut_0|space=384
+
+
+-----------------------------------------------------------------
+########## Laser ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+Laser|S2_TxLocalOscillatorOut|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 12 milliseconds
+=======
+Elapsed time: 10 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+Laser|S2_TxLocalOscillatorOut|space=0
+
+
+-----------------------------------------------------------------
+########## MQamTransmitter ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+MQamTransmitter|S1_BinarySourceOut_0|ready=128
+MQamTransmitter|S2_TxLocalOscillatorOut|ready=512
+Output Signals: 
+MQamTransmitter|S3_MQamTransmitterOut|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 72 milliseconds
+=======
+Elapsed time: 73 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+MQamTransmitter|S1_BinarySourceOut_0|ready=0
+MQamTransmitter|S2_TxLocalOscillatorOut|ready=0
+Output Signals: 
+MQamTransmitter|S3_MQamTransmitterOut|space=0
+
+
+-----------------------------------------------------------------
+########## Laser ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+Laser|S4_RxLocalOscillatorOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 7 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+Laser|S4_RxLocalOscillatorOut|space=0
+
+
+-----------------------------------------------------------------
+########## MQamReceiver ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+MQamReceiver|S3_MQamTransmitterOut|ready=512
+MQamReceiver|S4_RxLocalOscillatorOut|ready=512
+Output Signals: 
+MQamReceiver|S5_MQamReceiverOut|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 302 milliseconds
+=======
+Elapsed time: 474 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+MQamReceiver|S3_MQamTransmitterOut|ready=0
+MQamReceiver|S4_RxLocalOscillatorOut|ready=0
+Output Signals: 
+MQamReceiver|S5_MQamReceiverOut|space=384
+
+
+-----------------------------------------------------------------
+########## BitErrorRate ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+BitErrorRate|S5_MQamReceiverOut|ready=128
+BitErrorRate|S0_BinarySourceOut_0|ready=512
+Output Signals: 
+BitErrorRate|S6_BitErrorRateOut|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+BitErrorRate|S5_MQamReceiverOut|ready=0
+BitErrorRate|S0_BinarySourceOut_0|ready=384
+Output Signals: 
+BitErrorRate|S6_BitErrorRateOut|space=384
+
+
+-----------------------------------------------------------------
+########## Sink ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=128
 Output Signals: 
@@ -561,13 +809,21 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 BinarySource|S0_BinarySourceOut_0|space=128
 BinarySource|S1_BinarySourceOut_0|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 1 milliseconds
+=======
+Elapsed time: 0 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -577,12 +833,20 @@ BinarySource|S1_BinarySourceOut_0|space=478
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S2_TxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 13 milliseconds
+=======
+Elapsed time: 12 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -591,14 +855,22 @@ Laser|S2_TxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamTransmitter ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=34
 MQamTransmitter|S2_TxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamTransmitter|S3_MQamTransmitterOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 71 milliseconds
+=======
+Elapsed time: 74 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
@@ -609,12 +881,20 @@ MQamTransmitter|S3_MQamTransmitterOut|space=0
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S4_RxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 7 milliseconds
+=======
+Elapsed time: 8 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -623,14 +903,22 @@ Laser|S4_RxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamReceiver ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=512
 MQamReceiver|S4_RxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamReceiver|S5_MQamReceiverOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 303 milliseconds
+=======
+Elapsed time: 646 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
@@ -641,7 +929,11 @@ MQamReceiver|S5_MQamReceiverOut|space=384
 
 -----------------------------------------------------------------
 ########## BitErrorRate ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=128
 BitErrorRate|S0_BinarySourceOut_0|ready=418
@@ -659,7 +951,11 @@ BitErrorRate|S6_BitErrorRateOut|space=384
 
 -----------------------------------------------------------------
 ########## Sink ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=128
 Output Signals: 
@@ -673,7 +969,11 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 BinarySource|S0_BinarySourceOut_0|space=222
@@ -689,12 +989,20 @@ BinarySource|S1_BinarySourceOut_0|space=512
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S2_TxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 15 milliseconds
+=======
+Elapsed time: 14 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -703,14 +1011,22 @@ Laser|S2_TxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamTransmitter ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
 MQamTransmitter|S2_TxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamTransmitter|S3_MQamTransmitterOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 76 milliseconds
+=======
+Elapsed time: 70 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
@@ -721,12 +1037,20 @@ MQamTransmitter|S3_MQamTransmitterOut|space=0
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S4_RxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 8 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -735,14 +1059,22 @@ Laser|S4_RxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamReceiver ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=512
 MQamReceiver|S4_RxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamReceiver|S5_MQamReceiverOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 308 milliseconds
+=======
+Elapsed time: 562 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
@@ -753,7 +1085,11 @@ MQamReceiver|S5_MQamReceiverOut|space=384
 
 -----------------------------------------------------------------
 ########## BitErrorRate ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=128
 BitErrorRate|S0_BinarySourceOut_0|ready=290
@@ -771,12 +1107,20 @@ BitErrorRate|S6_BitErrorRateOut|space=384
 
 -----------------------------------------------------------------
 ########## Sink ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=128
 Output Signals: 
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 0 milliseconds
+=======
+Elapsed time: 2 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=0
@@ -785,7 +1129,11 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 BinarySource|S0_BinarySourceOut_0|space=350
@@ -801,12 +1149,20 @@ BinarySource|S1_BinarySourceOut_0|space=512
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S2_TxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 14 milliseconds
+=======
+Elapsed time: 13 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -815,14 +1171,22 @@ Laser|S2_TxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamTransmitter ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
 MQamTransmitter|S2_TxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamTransmitter|S3_MQamTransmitterOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 30 milliseconds
+=======
+Elapsed time: 28 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
@@ -833,12 +1197,20 @@ MQamTransmitter|S3_MQamTransmitterOut|space=88
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S4_RxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 12 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -847,14 +1219,22 @@ Laser|S4_RxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamReceiver ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=424
 MQamReceiver|S4_RxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamReceiver|S5_MQamReceiverOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 161 milliseconds
+=======
+Elapsed time: 160 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
@@ -865,7 +1245,11 @@ MQamReceiver|S5_MQamReceiverOut|space=406
 
 -----------------------------------------------------------------
 ########## BitErrorRate ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=106
 BitErrorRate|S0_BinarySourceOut_0|ready=162
@@ -883,12 +1267,20 @@ BitErrorRate|S6_BitErrorRateOut|space=406
 
 -----------------------------------------------------------------
 ########## Sink ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=106
 Output Signals: 
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 2 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=0
@@ -897,7 +1289,11 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 BinarySource|S0_BinarySourceOut_0|space=456
@@ -913,12 +1309,20 @@ BinarySource|S1_BinarySourceOut_0|space=512
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S2_TxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 15 milliseconds
+=======
+Elapsed time: 13 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -927,14 +1331,22 @@ Laser|S2_TxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamTransmitter ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
 MQamTransmitter|S2_TxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamTransmitter|S3_MQamTransmitterOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 20 milliseconds
+=======
+Elapsed time: 14 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
@@ -945,12 +1357,20 @@ MQamTransmitter|S3_MQamTransmitterOut|space=512
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S4_RxLocalOscillatorOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 10 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -959,14 +1379,22 @@ Laser|S4_RxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamReceiver ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
 MQamReceiver|S4_RxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamReceiver|S5_MQamReceiverOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 50 milliseconds
+=======
+Elapsed time: 43 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
@@ -977,14 +1405,22 @@ MQamReceiver|S5_MQamReceiverOut|space=512
 
 -----------------------------------------------------------------
 ########## BitErrorRate ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=0
 BitErrorRate|S0_BinarySourceOut_0|ready=56
 Output Signals: 
 BitErrorRate|S6_BitErrorRateOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 2 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=0
@@ -995,7 +1431,11 @@ BitErrorRate|S6_BitErrorRateOut|space=512
 
 -----------------------------------------------------------------
 ########## Sink ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=0
 Output Signals: 
@@ -1009,7 +1449,11 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 BinarySource|S0_BinarySourceOut_0|space=456
@@ -1025,12 +1469,20 @@ BinarySource|S1_BinarySourceOut_0|space=512
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S2_TxLocalOscillatorOut|space=424
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 16 milliseconds
+=======
+Elapsed time: 26 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 Output Signals: 
@@ -1039,14 +1491,22 @@ Laser|S2_TxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamTransmitter ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
 MQamTransmitter|S2_TxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamTransmitter|S3_MQamTransmitterOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 3 milliseconds
+=======
+Elapsed time: 2 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
@@ -1057,7 +1517,11 @@ MQamTransmitter|S3_MQamTransmitterOut|space=512
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S4_RxLocalOscillatorOut|space=424
@@ -1071,14 +1535,22 @@ Laser|S4_RxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamReceiver ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
 MQamReceiver|S4_RxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamReceiver|S5_MQamReceiverOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 8 milliseconds
+=======
+Elapsed time: 10 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
@@ -1089,14 +1561,22 @@ MQamReceiver|S5_MQamReceiverOut|space=512
 
 -----------------------------------------------------------------
 ########## BitErrorRate ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=0
 BitErrorRate|S0_BinarySourceOut_0|ready=56
 Output Signals: 
 BitErrorRate|S6_BitErrorRateOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 1 milliseconds
+=======
+Elapsed time: 2 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=0
@@ -1107,7 +1587,11 @@ BitErrorRate|S6_BitErrorRateOut|space=512
 
 -----------------------------------------------------------------
 ########## Sink ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=0
 Output Signals: 
@@ -1121,7 +1605,11 @@ Output Signals:
 
 -----------------------------------------------------------------
 ########## BinarySource ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 BinarySource|S0_BinarySourceOut_0|space=456
@@ -1137,7 +1625,11 @@ BinarySource|S1_BinarySourceOut_0|space=512
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S2_TxLocalOscillatorOut|space=0
@@ -1151,14 +1643,22 @@ Laser|S2_TxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamTransmitter ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
 MQamTransmitter|S2_TxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamTransmitter|S3_MQamTransmitterOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 2 milliseconds
+=======
+Elapsed time: 3 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamTransmitter|S1_BinarySourceOut_0|ready=0
@@ -1169,7 +1669,11 @@ MQamTransmitter|S3_MQamTransmitterOut|space=512
 
 -----------------------------------------------------------------
 ########## Laser ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Output Signals: 
 Laser|S4_RxLocalOscillatorOut|space=0
@@ -1183,14 +1687,22 @@ Laser|S4_RxLocalOscillatorOut|space=0
 
 -----------------------------------------------------------------
 ########## MQamReceiver ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
 MQamReceiver|S4_RxLocalOscillatorOut|ready=512
 Output Signals: 
 MQamReceiver|S5_MQamReceiverOut|space=512
 -----------------------------------------------------------------
+<<<<<<< HEAD
 Elapsed time: 12 milliseconds
+=======
+Elapsed time: 14 milliseconds
+>>>>>>> master
 -----------------------------------------------------------------
 Input Signals: 
 MQamReceiver|S3_MQamTransmitterOut|ready=0
@@ -1201,7 +1713,11 @@ MQamReceiver|S5_MQamReceiverOut|space=512
 
 -----------------------------------------------------------------
 ########## BitErrorRate ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 BitErrorRate|S5_MQamReceiverOut|ready=0
 BitErrorRate|S0_BinarySourceOut_0|ready=56
@@ -1219,7 +1735,11 @@ BitErrorRate|S6_BitErrorRateOut|space=512
 
 -----------------------------------------------------------------
 ########## Sink ##########
+<<<<<<< HEAD
 Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
 Input Signals: 
 Sink|S6_BitErrorRateOut|ready=0
 Output Signals: 
