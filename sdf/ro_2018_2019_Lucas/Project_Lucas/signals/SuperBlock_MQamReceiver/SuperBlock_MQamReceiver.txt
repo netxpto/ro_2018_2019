@@ -1,0 +1,3617 @@
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## OpticalHybrid ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:57
+>>>>>>> master
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=512
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 61 milliseconds
+=======
+Elapsed time: 477 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=0
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=0
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=0
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=0
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=512
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=512
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=512
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=512
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 8 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=512
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 89 milliseconds
+=======
+Elapsed time: 87 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=512
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 92 milliseconds
+=======
+Elapsed time: 78 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=512
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 66 milliseconds
+=======
+Elapsed time: 45 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=512
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 83 milliseconds
+=======
+Elapsed time: 43 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 4 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 5 milliseconds
+=======
+Elapsed time: 4 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=512
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=0
+Output Signals: 
+Add|S14_AddOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=512
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 9 milliseconds
+=======
+Elapsed time: 4 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=0
+Output Signals: 
+Add|S15_AddOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+Sampler|S14_AddOut_1|ready=512
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 1 milliseconds
+=======
+Elapsed time: 0 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=477
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+Sampler|S15_AddOut_2|ready=512
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=477
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=35
+Decoder|S17_SamplerOut_2|ready=35
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=442
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## OpticalHybrid ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:58
+>>>>>>> master
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=512
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 54 milliseconds
+=======
+Elapsed time: 499 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=0
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=0
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=0
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=0
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:46
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=512
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=512
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 8 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=512
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=512
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 8 milliseconds
+=======
+Elapsed time: 10 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=512
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 113 milliseconds
+=======
+Elapsed time: 65 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=512
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 93 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=512
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 40 milliseconds
+=======
+Elapsed time: 32 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=512
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 45 milliseconds
+=======
+Elapsed time: 31 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 10 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 11 milliseconds
+=======
+Elapsed time: 8 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=512
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 14 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=0
+Output Signals: 
+Add|S14_AddOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=512
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 11 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=0
+Output Signals: 
+Add|S15_AddOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+Sampler|S14_AddOut_1|ready=512
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 1 milliseconds
+=======
+Elapsed time: 0 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=448
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+Sampler|S15_AddOut_2|ready=512
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=448
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=64
+Decoder|S17_SamplerOut_2|ready=64
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 2 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=384
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## OpticalHybrid ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:27:59
+>>>>>>> master
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=512
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 30 milliseconds
+=======
+Elapsed time: 291 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=0
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=0
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=0
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=0
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=512
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=512
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 8 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=512
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=512
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 12 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=512
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 69 milliseconds
+=======
+Elapsed time: 72 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=512
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 73 milliseconds
+=======
+Elapsed time: 76 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=512
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 32 milliseconds
+=======
+Elapsed time: 34 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=512
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 33 milliseconds
+=======
+Elapsed time: 36 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=512
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=0
+Output Signals: 
+Add|S14_AddOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=512
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=0
+Output Signals: 
+Add|S15_AddOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+Sampler|S14_AddOut_1|ready=512
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 0 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=448
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+Sampler|S15_AddOut_2|ready=512
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=448
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=64
+Decoder|S17_SamplerOut_2|ready=64
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=384
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## OpticalHybrid ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=512
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 29 milliseconds
+=======
+Elapsed time: 289 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=0
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=0
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=0
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=0
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=512
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=512
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 8 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=512
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=512
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 11 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:47
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=512
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 68 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=512
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 91 milliseconds
+=======
+Elapsed time: 92 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=512
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 33 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=512
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 33 milliseconds
+=======
+Elapsed time: 34 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:00
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 6 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 6 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=512
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=0
+Output Signals: 
+Add|S14_AddOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=512
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 4 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=0
+Output Signals: 
+Add|S15_AddOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Sampler|S14_AddOut_1|ready=512
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=448
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Sampler|S15_AddOut_2|ready=512
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 1 milliseconds
+=======
+Elapsed time: 0 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=448
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=64
+Decoder|S17_SamplerOut_2|ready=64
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=384
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## OpticalHybrid ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=512
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 30 milliseconds
+=======
+Elapsed time: 202 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=0
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=0
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=0
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=0
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=512
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=512
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 7 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=512
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=512
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 10 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=512
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 67 milliseconds
+=======
+Elapsed time: 64 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=512
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 77 milliseconds
+=======
+Elapsed time: 80 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=512
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 33 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=512
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 34 milliseconds
+=======
+Elapsed time: 32 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 8 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=512
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=0
+Output Signals: 
+Add|S14_AddOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=512
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=0
+Output Signals: 
+Add|S15_AddOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Sampler|S14_AddOut_1|ready=512
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=448
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Sampler|S15_AddOut_2|ready=512
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 1 milliseconds
+=======
+Elapsed time: 0 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=448
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=64
+Decoder|S17_SamplerOut_2|ready=64
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=384
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## OpticalHybrid ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:01
+>>>>>>> master
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=512
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 31 milliseconds
+=======
+Elapsed time: 274 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=0
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=0
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=0
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=0
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=512
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=512
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 8 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=512
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=512
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 10 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=512
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 71 milliseconds
+=======
+Elapsed time: 73 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=512
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 75 milliseconds
+=======
+Elapsed time: 118 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=512
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 32 milliseconds
+=======
+Elapsed time: 64 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=512
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 34 milliseconds
+=======
+Elapsed time: 51 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 7 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 7 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=512
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 4 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=0
+Output Signals: 
+Add|S14_AddOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=512
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=0
+Output Signals: 
+Add|S15_AddOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+Sampler|S14_AddOut_1|ready=512
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 0 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=448
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+Sampler|S15_AddOut_2|ready=512
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=448
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:48
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=64
+Decoder|S17_SamplerOut_2|ready=64
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=384
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## OpticalHybrid ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=512
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 29 milliseconds
+=======
+Elapsed time: 289 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=0
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=0
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=0
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=0
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=512
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=512
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 6 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=512
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=512
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 7 milliseconds
+=======
+Elapsed time: 11 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:02
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=512
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 69 milliseconds
+=======
+Elapsed time: 67 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=512
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 83 milliseconds
+=======
+Elapsed time: 78 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=512
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 33 milliseconds
+=======
+Elapsed time: 32 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=512
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 33 milliseconds
+=======
+Elapsed time: 32 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 7 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 8 milliseconds
+=======
+Elapsed time: 6 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=512
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=0
+Output Signals: 
+Add|S14_AddOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=512
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 6 milliseconds
+=======
+Elapsed time: 5 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=0
+Output Signals: 
+Add|S15_AddOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Sampler|S14_AddOut_1|ready=512
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 1 milliseconds
+=======
+Elapsed time: 0 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=448
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Sampler|S15_AddOut_2|ready=512
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=448
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=64
+Decoder|S17_SamplerOut_2|ready=64
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 0 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=384
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## OpticalHybrid ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=424
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 2 milliseconds
+=======
+Elapsed time: 3 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=88
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=88
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=88
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=88
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=88
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=424
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=424
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 3 milliseconds
+=======
+Elapsed time: 2 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=88
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=424
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=424
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 3 milliseconds
+=======
+Elapsed time: 2 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=88
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=424
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 38 milliseconds
+=======
+Elapsed time: 40 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=88
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=424
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 37 milliseconds
+=======
+Elapsed time: 40 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=88
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=424
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 23 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=88
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=424
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 22 milliseconds
+=======
+Elapsed time: 23 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=88
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 7 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 8 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=424
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 1 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=88
+Output Signals: 
+Add|S14_AddOut_1|space=88
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=424
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 0 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=88
+Output Signals: 
+Add|S15_AddOut_2|space=88
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Sampler|S14_AddOut_1|ready=424
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=459
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Sampler|S15_AddOut_2|ready=424
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 0 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=459
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=53
+Decoder|S17_SamplerOut_2|ready=53
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 0 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=406
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## OpticalHybrid ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 11 milliseconds
+=======
+Elapsed time: 9 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 10 milliseconds
+=======
+Elapsed time: 9 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=424
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 8 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=424
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 8 milliseconds
+=======
+Elapsed time: 7 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## OpticalHybrid ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 2 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 2 milliseconds
+=======
+Elapsed time: 1 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+
+
+The following input parameters were loaded from the configuration file:
+-----------------------------------------------------------------
+########## OpticalHybrid ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+OpticalHybrid|S0_OpticalSignal_In|ready=0
+OpticalHybrid|S1_LocalOscillator_In|ready=512
+Output Signals: 
+OpticalHybrid|S2_OpticalHybridOut_S_Plus_L|space=512
+OpticalHybrid|S3_OpticalHybridOut_S_Minus_L|space=512
+OpticalHybrid|S4_OpticalHybridOut_S_Plus_iL|space=512
+OpticalHybrid|S5_OpticalHybridOut_S_Minus_iL|space=512
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S2_OpticalHybridOut_S_Plus_L|ready=0
+BalancedPhotodetector|S3_OpticalHybridOut_S_Minus_L|ready=0
+Output Signals: 
+BalancedPhotodetector|S6_BalancedPhotodetectorOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## BalancedPhotodetector ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+BalancedPhotodetector|S4_OpticalHybridOut_S_Plus_iL|ready=0
+BalancedPhotodetector|S5_OpticalHybridOut_S_Minus_iL|ready=0
+Output Signals: 
+BalancedPhotodetector|S7_BalancedPhotodetectorOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 3 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S6_BalancedPhotodetectorOut_1|ready=0
+Output Signals: 
+TiAmplifier|S8_TiAmplifierOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## TiAmplifier ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+-----------------------------------------------------------------
+<<<<<<< HEAD
+Elapsed time: 1 milliseconds
+=======
+Elapsed time: 3 milliseconds
+>>>>>>> master
+-----------------------------------------------------------------
+Input Signals: 
+TiAmplifier|S7_BalancedPhotodetectorOut_2|ready=0
+Output Signals: 
+TiAmplifier|S9_TiAmplifierOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S8_TiAmplifierOut_1|ready=0
+Output Signals: 
+PulseShaper|S10_ReceiverFilterOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## PulseShaper ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+PulseShaper|S9_TiAmplifierOut_2|ready=0
+Output Signals: 
+PulseShaper|S11_ReceiverFilterOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S12_WhiteNoiseOut_1|space=0
+
+
+-----------------------------------------------------------------
+########## WhiteNoise ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Output Signals: 
+WhiteNoise|S13_WhiteNoiseOut_2|space=0
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Add|S10_ReceiverFilterOut_1|ready=0
+Add|S12_WhiteNoiseOut_1|ready=512
+Output Signals: 
+Add|S14_AddOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## Add ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Add|S11_ReceiverFilterOut_2|ready=0
+Add|S13_WhiteNoiseOut_2|ready=512
+Output Signals: 
+Add|S15_AddOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S14_AddOut_1|ready=0
+Output Signals: 
+Sampler|S16_SamplerOut_1|space=512
+
+
+-----------------------------------------------------------------
+########## Sampler ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Sampler|S15_AddOut_2|ready=0
+Output Signals: 
+Sampler|S17_SamplerOut_2|space=512
+
+
+-----------------------------------------------------------------
+########## Decoder ##########
+<<<<<<< HEAD
+Block start time: 2019-03-13 12:23:49
+=======
+Block start time: 2019-04-03 19:28:03
+>>>>>>> master
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+-----------------------------------------------------------------
+Elapsed time: 0 milliseconds
+-----------------------------------------------------------------
+Input Signals: 
+Decoder|S16_SamplerOut_1|ready=0
+Decoder|S17_SamplerOut_2|ready=0
+Output Signals: 
+Decoder|S18_Binary_Data_Out|space=512
+
+
