@@ -1,0 +1,12 @@
+
+Guidelines for implementation of a fiber model block:
+
+- input parameters:
+z
+beta2
+attenuation
+pulse width
+
+
+- the block has an internal instance of a FD_Filterb block, already available on the netxpto library, uses the transfer function of the fiber andconcolutes it with
+the input signal outputting it to the
