@@ -1,158 +1,158 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
-[1] Config.pm:307> INFO - Logfile is 'main_netxpto.blg'
-[47] biber-MSWIN64:315> INFO - === 
-[85] Biber.pm:371> INFO - Reading 'main_netxpto.bcf'
-[190] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[190] Biber.pm:889> INFO - Found 3 citekeys in bib section 1
-[191] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[191] Biber.pm:889> INFO - Found 15 citekeys in bib section 2
-[191] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[191] Biber.pm:889> INFO - Found 1 citekeys in bib section 3
-[191] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[192] Biber.pm:889> INFO - Found 1 citekeys in bib section 4
-[192] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[192] Biber.pm:889> INFO - Found 1 citekeys in bib section 5
-[192] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[192] Biber.pm:889> INFO - Found 2 citekeys in bib section 6
-[192] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[192] Biber.pm:889> INFO - Found 2 citekeys in bib section 7
-[193] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[193] Biber.pm:889> INFO - Found 2 citekeys in bib section 8
-[193] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[193] Biber.pm:889> INFO - Found 2 citekeys in bib section 9
-[193] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[193] Biber.pm:889> INFO - Found 2 citekeys in bib section 10
-[193] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[268] Biber.pm:4093> INFO - Processing section 1
-[282] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 1
-[286] bibtex.pm:1523> INFO - LaTeX decoding ...
-[296] bibtex.pm:1340> INFO - Found BibTeX data source './chapter/simulator_structure/simulator_structure.bib'
-[315] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[315] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[315] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[315] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[322] Biber.pm:4093> INFO - Processing section 2
-[322] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 2
-[325] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 2
-[329] bibtex.pm:1523> INFO - LaTeX decoding ...
-[356] bibtex.pm:1340> INFO - Found BibTeX data source './sdf/m_qam_system/m_qam_system.bib'
-[459] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[460] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[460] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[460] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[476] Biber.pm:4093> INFO - Processing section 3
-[477] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 3
-[480] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 3
-[483] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 3
-[487] bibtex.pm:1523> INFO - LaTeX decoding ...
-[499] bibtex.pm:1340> INFO - Found BibTeX data source './lib/bit_error_rate/bit_error_rate.bib'
-[526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[526] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[526] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[528] Biber.pm:4093> INFO - Processing section 4
-[528] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 4
-[532] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 4
-[535] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 4
-[537] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 4
-[541] bibtex.pm:1523> INFO - LaTeX decoding ...
-[545] bibtex.pm:1340> INFO - Found BibTeX data source './lib/iir_filter/iir_filter.bib'
-[548] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iq_modulator/iq_modulator.bib' for section 4
-[551] bibtex.pm:1523> INFO - LaTeX decoding ...
-[553] bibtex.pm:1340> INFO - Found BibTeX data source './lib/iq_modulator/iq_modulator.bib'
-[559] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\anp\AppData\Local\Temp\sSADOse4f9\iq_modulator.bib_9508.utf8, line 6, warning: 170 characters of junk seen at toplevel
-[567] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[567] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[567] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[567] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[568] Biber.pm:4093> INFO - Processing section 5
-[569] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 5
-[572] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 5
-[574] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 5
-[577] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 5
-[593] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[593] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[593] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[593] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[594] Biber.pm:4093> INFO - Processing section 6
-[594] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 6
-[597] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 6
-[600] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 6
-[602] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 6
-[605] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iq_modulator/iq_modulator.bib' for section 6
-[608] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/fft/fft.bib' for section 6
-[612] bibtex.pm:1523> INFO - LaTeX decoding ...
-[624] bibtex.pm:1340> INFO - Found BibTeX data source './algorithms/fft/fft.bib'
-[644] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\anp\AppData\Local\Temp\sSADOse4f9\fft.bib_9508.utf8, line 6, warning: 173 characters of junk seen at toplevel
-[653] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[653] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[654] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[654] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[656] Biber.pm:4093> INFO - Processing section 7
-[656] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 7
-[659] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 7
-[661] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 7
-[664] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 7
-[667] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iq_modulator/iq_modulator.bib' for section 7
-[669] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/fft/fft.bib' for section 7
-[672] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/overlap_save/overlap_save.bib' for section 7
-[675] bibtex.pm:1523> INFO - LaTeX decoding ...
-[680] bibtex.pm:1340> INFO - Found BibTeX data source './algorithms/overlap_save/overlap_save.bib'
-[696] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\anp\AppData\Local\Temp\sSADOse4f9\overlap_save.bib_9508.utf8, line 6, warning: 173 characters of junk seen at toplevel
-[705] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[705] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[705] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[705] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[707] Biber.pm:4093> INFO - Processing section 8
-[707] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 8
-[710] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 8
-[713] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 8
-[715] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 8
-[718] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iq_modulator/iq_modulator.bib' for section 8
-[721] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/fft/fft.bib' for section 8
-[723] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/overlap_save/overlap_save.bib' for section 8
-[754] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/filter/filter.bib' for section 8
-[757] bibtex.pm:1523> INFO - LaTeX decoding ...
-[766] bibtex.pm:1340> INFO - Found BibTeX data source './algorithms/filter/filter.bib'
-[779] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\anp\AppData\Local\Temp\sSADOse4f9\filter.bib_9508.utf8, line 6, warning: 173 characters of junk seen at toplevel
-[789] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[789] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[789] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[789] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[791] Biber.pm:4093> INFO - Processing section 9
-[791] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 9
-[794] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 9
-[796] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 9
-[799] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 9
-[802] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iq_modulator/iq_modulator.bib' for section 9
-[804] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/fft/fft.bib' for section 9
-[807] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/overlap_save/overlap_save.bib' for section 9
-[810] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/filter/filter.bib' for section 9
-[812] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/hilbert/hilbert.bib' for section 9
-[816] bibtex.pm:1523> INFO - LaTeX decoding ...
-[821] bibtex.pm:1340> INFO - Found BibTeX data source './algorithms/hilbert/hilbert.bib'
-[835] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\anp\AppData\Local\Temp\sSADOse4f9\hilbert.bib_9508.utf8, line 6, warning: 173 characters of junk seen at toplevel
-[844] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[844] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[845] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[845] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[847] Biber.pm:4093> INFO - Processing section 10
-[847] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 10
-[850] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 10
-[852] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 10
-[855] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 10
-[857] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iq_modulator/iq_modulator.bib' for section 10
-[860] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/fft/fft.bib' for section 10
-[863] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/overlap_save/overlap_save.bib' for section 10
-[865] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/filter/filter.bib' for section 10
-[868] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/hilbert/hilbert.bib' for section 10
-[871] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/git/git_helper.bib' for section 10
-[875] bibtex.pm:1523> INFO - LaTeX decoding ...
-[879] bibtex.pm:1340> INFO - Found BibTeX data source './chapter/git/git_helper.bib'
-[895] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[895] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[895] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[895] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[897] bbl.pm:636> INFO - Writing 'main_netxpto.bbl' with encoding 'ansinew'
-[910] bbl.pm:739> INFO - Output to main_netxpto.bbl
-[920] Biber.pm:110> INFO - WARNINGS: 5
+[0] Config.pm:307> INFO - Logfile is 'main_netxpto.blg'
+[32] biber-MSWIN64:315> INFO - === 
+[62] Biber.pm:371> INFO - Reading 'main_netxpto.bcf'
+[174] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[175] Biber.pm:889> INFO - Found 3 citekeys in bib section 1
+[175] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[175] Biber.pm:889> INFO - Found 15 citekeys in bib section 2
+[175] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[175] Biber.pm:889> INFO - Found 1 citekeys in bib section 3
+[176] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[176] Biber.pm:889> INFO - Found 1 citekeys in bib section 4
+[176] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[176] Biber.pm:889> INFO - Found 1 citekeys in bib section 5
+[176] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[176] Biber.pm:889> INFO - Found 2 citekeys in bib section 6
+[176] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[177] Biber.pm:889> INFO - Found 2 citekeys in bib section 7
+[177] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[177] Biber.pm:889> INFO - Found 2 citekeys in bib section 8
+[177] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[177] Biber.pm:889> INFO - Found 2 citekeys in bib section 9
+[177] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[177] Biber.pm:889> INFO - Found 2 citekeys in bib section 10
+[177] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[257] Biber.pm:4093> INFO - Processing section 1
+[274] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 1
+[278] bibtex.pm:1523> INFO - LaTeX decoding ...
+[284] bibtex.pm:1340> INFO - Found BibTeX data source './chapter/simulator_structure/simulator_structure.bib'
+[301] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[301] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[301] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[301] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[308] Biber.pm:4093> INFO - Processing section 2
+[308] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 2
+[311] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 2
+[315] bibtex.pm:1523> INFO - LaTeX decoding ...
+[345] bibtex.pm:1340> INFO - Found BibTeX data source './sdf/m_qam_system/m_qam_system.bib'
+[435] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[435] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[435] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[435] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[446] Biber.pm:4093> INFO - Processing section 3
+[446] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 3
+[449] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 3
+[452] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 3
+[456] bibtex.pm:1523> INFO - LaTeX decoding ...
+[461] bibtex.pm:1340> INFO - Found BibTeX data source './lib/bit_error_rate/bit_error_rate.bib'
+[483] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[483] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[483] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[483] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[484] Biber.pm:4093> INFO - Processing section 4
+[485] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 4
+[488] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 4
+[492] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 4
+[496] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 4
+[500] bibtex.pm:1523> INFO - LaTeX decoding ...
+[504] bibtex.pm:1340> INFO - Found BibTeX data source './lib/iir_filter/iir_filter.bib'
+[507] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iq_modulator/iq_modulator.bib' for section 4
+[511] bibtex.pm:1523> INFO - LaTeX decoding ...
+[514] bibtex.pm:1340> INFO - Found BibTeX data source './lib/iq_modulator/iq_modulator.bib'
+[518] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\tiago\AppData\Local\Temp\cAsML1YpHO\iq_modulator.bib_21948.utf8, line 6, warning: 170 characters of junk seen at toplevel
+[527] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[527] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[527] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[527] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[528] Biber.pm:4093> INFO - Processing section 5
+[528] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 5
+[531] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 5
+[534] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 5
+[538] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 5
+[553] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[553] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[553] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[553] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[554] Biber.pm:4093> INFO - Processing section 6
+[555] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 6
+[558] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 6
+[561] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 6
+[564] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 6
+[567] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iq_modulator/iq_modulator.bib' for section 6
+[570] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/fft/fft.bib' for section 6
+[574] bibtex.pm:1523> INFO - LaTeX decoding ...
+[584] bibtex.pm:1340> INFO - Found BibTeX data source './algorithms/fft/fft.bib'
+[599] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\tiago\AppData\Local\Temp\cAsML1YpHO\fft.bib_21948.utf8, line 6, warning: 173 characters of junk seen at toplevel
+[608] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[609] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[609] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[609] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[610] Biber.pm:4093> INFO - Processing section 7
+[611] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 7
+[614] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 7
+[617] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 7
+[620] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 7
+[623] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iq_modulator/iq_modulator.bib' for section 7
+[626] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/fft/fft.bib' for section 7
+[630] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/overlap_save/overlap_save.bib' for section 7
+[634] bibtex.pm:1523> INFO - LaTeX decoding ...
+[639] bibtex.pm:1340> INFO - Found BibTeX data source './algorithms/overlap_save/overlap_save.bib'
+[650] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\tiago\AppData\Local\Temp\cAsML1YpHO\overlap_save.bib_21948.utf8, line 6, warning: 173 characters of junk seen at toplevel
+[659] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[659] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[660] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[660] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[661] Biber.pm:4093> INFO - Processing section 8
+[661] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 8
+[665] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 8
+[668] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 8
+[671] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 8
+[674] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iq_modulator/iq_modulator.bib' for section 8
+[677] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/fft/fft.bib' for section 8
+[680] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/overlap_save/overlap_save.bib' for section 8
+[779] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/filter/filter.bib' for section 8
+[783] bibtex.pm:1523> INFO - LaTeX decoding ...
+[792] bibtex.pm:1340> INFO - Found BibTeX data source './algorithms/filter/filter.bib'
+[805] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\tiago\AppData\Local\Temp\cAsML1YpHO\filter.bib_21948.utf8, line 6, warning: 173 characters of junk seen at toplevel
+[813] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[814] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[814] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[814] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[815] Biber.pm:4093> INFO - Processing section 9
+[816] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 9
+[819] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 9
+[823] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 9
+[826] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 9
+[828] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iq_modulator/iq_modulator.bib' for section 9
+[831] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/fft/fft.bib' for section 9
+[834] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/overlap_save/overlap_save.bib' for section 9
+[838] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/filter/filter.bib' for section 9
+[841] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/hilbert/hilbert.bib' for section 9
+[845] bibtex.pm:1523> INFO - LaTeX decoding ...
+[851] bibtex.pm:1340> INFO - Found BibTeX data source './algorithms/hilbert/hilbert.bib'
+[864] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\tiago\AppData\Local\Temp\cAsML1YpHO\hilbert.bib_21948.utf8, line 6, warning: 173 characters of junk seen at toplevel
+[873] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[874] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[874] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[874] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[876] Biber.pm:4093> INFO - Processing section 10
+[876] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/simulator_structure/simulator_structure.bib' for section 10
+[879] Biber.pm:4254> INFO - Looking for bibtex format file './sdf/m_qam_system/m_qam_system.bib' for section 10
+[882] Biber.pm:4254> INFO - Looking for bibtex format file './lib/bit_error_rate/bit_error_rate.bib' for section 10
+[885] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iir_filter/iir_filter.bib' for section 10
+[888] Biber.pm:4254> INFO - Looking for bibtex format file './lib/iq_modulator/iq_modulator.bib' for section 10
+[891] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/fft/fft.bib' for section 10
+[894] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/overlap_save/overlap_save.bib' for section 10
+[897] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/filter/filter.bib' for section 10
+[900] Biber.pm:4254> INFO - Looking for bibtex format file './algorithms/hilbert/hilbert.bib' for section 10
+[903] Biber.pm:4254> INFO - Looking for bibtex format file './chapter/git/git_helper.bib' for section 10
+[907] bibtex.pm:1523> INFO - LaTeX decoding ...
+[910] bibtex.pm:1340> INFO - Found BibTeX data source './chapter/git/git_helper.bib'
+[926] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[926] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[926] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[926] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[927] bbl.pm:636> INFO - Writing 'main_netxpto.bbl' with encoding 'ansinew'
+[941] bbl.pm:739> INFO - Output to main_netxpto.bbl
+[945] Biber.pm:110> INFO - WARNINGS: 5
