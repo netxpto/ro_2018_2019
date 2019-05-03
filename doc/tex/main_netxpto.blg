@@ -1,17 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main_netxpto.aux
-A level-1 auxiliary file: chapter/preface.aux
-A level-1 auxiliary file: chapter/introduction.aux
-A level-1 auxiliary file: chapter/simulator_structure/simulator_structure.aux
-A level-1 auxiliary file: chapter/development_cycle.aux
-A level-1 auxiliary file: chapter/visualizer.aux
-A level-1 auxiliary file: chapter/case_studies.aux
 A level-1 auxiliary file: chapter/library.aux
-A level-1 auxiliary file: chapter/mtools.aux
-A level-1 auxiliary file: chapter/algorithms.aux
-A level-1 auxiliary file: chapter/code_development_guidelines.aux
-A level-1 auxiliary file: chapter/msbuild.aux
-A level-1 auxiliary file: chapter/git/git_helper.aux
-A level-1 auxiliary file: chapter/ghdl.aux
 I found no \citation commands---while reading file main_netxpto.aux
 I found no \bibdata command---while reading file main_netxpto.aux
 I found no \bibstyle command---while reading file main_netxpto.aux
