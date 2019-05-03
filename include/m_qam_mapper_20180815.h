@@ -35,7 +35,9 @@ private:
 
 	/* Input Parameters */
 	t_integer m{ 4 };
-	vector<vector<t_real>> iqAmplitudes{ { 1,1 },{ -1,1 },{ 1,-1 },{ -1,-1 } };
+	vector<vector<t_real>> iqAmplitudes{ { 1,1 },{ -1,1 },{ 1,-1 },{ -1,-1 } }; // gray
+	//vector<vector<t_real>> iqAmplitudes{ { 1,1 },{ -1,1 },{ -1,-1 },{ 1,-1 } }; // not gray
+	//vector<vector<t_real>> iqAmplitudes = { { -3.0, -3.0 },{ -3.0, -1.0 },{ -3.0, 1.0 },{ -3.0, 3.0 },{ -1.0, -3.0 },{ -1.0, -1.0 },{ -1.0, 3.0 },{ -1.0, 1.0 },{ 3.0, -3.0 },{ 3.0, -1.0 },{ 3.0, 3.0 },{ 3.0, 1.0 },{ 1.0, -3.0 },{ 1.0, -1.0 },{ 1.0, 3.0 },{ 1.0, 1.0 } }; // 16QAM
 
 };
 

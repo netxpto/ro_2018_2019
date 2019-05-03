@@ -18,7 +18,7 @@ bool Laser::runBlock(void) {
 
 	double samplingPeriod = outputSignals[0]->getSamplingPeriod();
 
-	t_real phNoiseVar = 2 * PI * laserLineWidth * samplingPeriod;
+	t_real phNoiseVar = 2 * PI * laserLineWidth * samplingPeriod; // phase noise variance
 			
 	normal_distribution<double> dist_phaseNoise;
 	normal_distribution<double> dist_RIN;
